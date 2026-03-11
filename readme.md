@@ -1,3 +1,9 @@
+#Search
+
+This implements the search functionality described on the following design document.
+
+[https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md)
+
 ## Configuration
 
 Environment variables can be set in `.env` (auto-loaded) or exported in the shell.
