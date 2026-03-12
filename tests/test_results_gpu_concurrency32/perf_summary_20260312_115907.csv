@@ -1,0 +1,11 @@
+metric,value
+n_requests,100
+successful,100
+errors,0
+throughput_rps,3.2543
+p50_ms,8137.03
+p95_ms,9154.88
+p99_ms,9168.88
+min_ms,1037.26
+max_ms,9168.88
+wall_time_s,30.73

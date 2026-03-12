@@ -1,0 +1,32 @@
+{
+  "retrieval": {
+    "bm25_weight": 0.3,
+    "dense_weight": 0.7,
+    "max_candidates": 20,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "vector_backend": "faiss"
+  },
+  "reranking": {
+    "reranker_type": "dual_late",
+    "llm_weight": 0.5,
+    "late_interaction_weight": 0.3,
+    "biomedical_weight": 0.2,
+    "late_interaction_model": "jinaai/jina-colbert-v2",
+    "openrouter_model": "openrouter/google/gemini-flash-1.5",
+    "openrouter_api_key_set": true
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "log_level": "INFO"
+  },
+  "cache": {
+    "index_cache_dir": ".cache/ontology_indexes",
+    "embed_cache_dir": ".cache/embed_indexes",
+    "database_path": "bioportal.db"
+  },
+  "status": {
+    "indexing_complete": true,
+    "num_indexed_concepts": 4282724
+  }
+}

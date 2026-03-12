@@ -1,0 +1,122 @@
+===== SYSTEM INFO =====
+Linux node2803 4.18.0-372.9.1.el8.x86_64 #1 SMP Tue May 10 14:48:47 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
+===== CPU =====
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              128
+On-line CPU(s) list: 0-127
+Thread(s) per core:  2
+Core(s) per socket:  32
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               143
+Model name:          Intel(R) Xeon(R) Platinum 8462Y+
+Stepping:            8
+CPU MHz:             2800.000
+CPU max MHz:         4100.0000
+CPU min MHz:         800.0000
+BogoMIPS:            5600.00
+L1d cache:           48K
+L1i cache:           32K
+L2 cache:            2048K
+L3 cache:            61440K
+NUMA node0 CPU(s):   0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98,100,102,104,106,108,110,112,114,116,118,120,122,124,126
+NUMA node1 CPU(s):   1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85,87,89,91,93,95,97,99,101,103,105,107,109,111,113,115,117,119,121,123,125,127
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 invpcid_single cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr avx512_fp16 amx_tile flush_l1d arch_capabilities
+
+===== MEMORY =====
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        52Gi       703Gi        80Mi       1.2Ti       1.9Ti
+Swap:         4.0Gi        14Mi       4.0Gi
+
+===== DISK =====
+Filesystem                             Size  Used Avail Use% Mounted on
+devtmpfs                              1008G     0 1008G   0% /dev
+tmpfs                                 1008G  2.3M 1008G   1% /dev/shm
+tmpfs                                 1008G   27M 1008G   1% /run
+tmpfs                                 1008G     0 1008G   0% /sys/fs/cgroup
+/dev/mapper/xcatvg-root                433G   23G  411G   6% /
+/dev/nvme0n1p2                          10G  349M  9.7G   4% /boot
+/dev/nvme0n1p1                         256M  5.8M  250M   3% /boot/efi
+nfs001.lb:/home                        403T  202T  201T  51% /orcd/home/002
+fstor014.ib:/                          294T   22T  272T   8% /orcd/scratch/orcd/007
+fstor001:/software/core/001            3.0T  2.9T  181G  95% /orcd/software/core/001
+fstor001:/software/community/001       5.0T  3.9T  1.2T  78% /orcd/software/community/001
+fstor002.ib:/data1                     294T  206T   89T  70% /orcd/scratch/bcs/001
+hstor012-n1:/pool/007                  140T   27M  140T   1% /orcd/pool/007
+hstor012-n1:/pool/007/aparnabg         1.0T  175G  850G  18% /orcd/pool/007/aparnabg
+hstor005-n2:/group/ngk/001             275T  272T  3.7T  99% /orcd/data/ngk/001
+hstor005-n2:/group/ekmiller/001         60T   40T   21T  66% /orcd/data/ekmiller/001
+hstor006-n1:/group/jhm/001             400T  375T   26T  94% /orcd/data/jhm/001
+hstor006-n2:/group/satra/001            60T   17T   44T  28% /orcd/data/satra/001
+fstor003.ib:/data1                     294T  181T  114T  62% /orcd/scratch/bcs/002
+hstor005-n1:/group/omarabu/001          60T   60T   14G 100% /orcd/data/omarabu/001
+fstor010.ib:/bcs/001                   329T  113T  216T  35% /orcd/compute/bcs/001
+fstor001:/software/deprecated/001      300G  768K  300G   1% /orcd/software/deprecated/001
+fstor001:/data1/software/core/001      3.0T  2.9T  181G  95% /nfs/software001
+hstor013-n2:/pool/006                  118T   31M  118T   1% /orcd/pool/006
+hstor013-n2:/pool/006/hiserale         1.0T  291G  734G  29% /orcd/pool/006/hiserale
+core009.ib:/omarabu/001                 40T   40T  516G  99% /orcd/archive/omarabu/001
+hstor005-n1:/group/rplevy/001           60T   33T   28T  55% /orcd/data/rplevy/001
+hstor013-n1:/group/laub/001            100T   75T   26T  75% /orcd/data/laub/001
+hstor013-n1:/pool/008                  119T   30M  119T   1% /orcd/pool/008
+hstor013-n1:/pool/008/yuanbian         1.0T  551G  474G  54% /orcd/pool/008/yuanbian
+hstor007-n2:/group/mvogelsb/005        1.0P  973T   52T  95% /orcd/data/mvogelsb/005
+hstor005-n1:/group/manoli/001           60T   52T  8.2T  87% /orcd/data/manoli/001
+hstor013-n1:/pool/008/sihanc           1.0T  286G  739G  28% /orcd/pool/008/sihanc
+hstor012-n2:/group/katiegal/002         20T   12T  8.8T  57% /orcd/data/katiegal/002
+hstor002-n2:/pool/003                  145T   16M  145T   1% /orcd/pool/003
+hstor002-n2:/pool/003/katiegal_shared  5.0T  4.5T  585G  89% /orcd/pool/003/katiegal_shared
+hstor006-n1:/group/fiete/001            60T   59T  1.3T  98% /orcd/data/fiete/001
+fstor015.ib:/                          294T   21T  273T   8% /orcd/scratch/orcd/008
+fstor018.ib:/                          294T   18T  276T   6% /orcd/scratch/orcd/011
+hstor012-n1:/pool/007/hoffmanj         1.0T  228G  797G  23% /orcd/pool/007/hoffmanj
+hstor004-n2:/group/satra/002           460T  397T   64T  87% /orcd/data/satra/002
+hstor006-n2:/group/evelina9/001        260T  124T  137T  48% /orcd/data/evelina9/001
+core009.ib:/evelina9/001               400T  400T  794G 100% /orcd/archive/evelina9/001
+fstor019.ib:/                          294T   27T  268T   9% /orcd/scratch/orcd/012
+fstor012.ib:/group/seedfund/001        294T  145T  149T  50% /orcd/scratch/seedfund/001
+fstor017.ib:/                          294T   23T  272T   8% /orcd/scratch/orcd/010
+fstor016.ib:/                          294T   26T  269T   9% /orcd/scratch/orcd/009
+hstor001:/data2/group/mvogelsb/004     160T  154T  6.2T  97% /orcd/data/mvogelsb/004
+fstor021.ib:/                          294T   21T  273T   8% /orcd/scratch/orcd/014
+hstor005-n1:/group/ldlewis/001         200T   76T  125T  38% /orcd/data/ldlewis/001
+
+===== GPU =====
+Thu Mar 12 11:20:33 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   55C    P0            139W /  700W |     865MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A          531183      C   python                                  854MiB |
++-----------------------------------------------------------------------------------------+
+
+===== CUDA =====
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2025 NVIDIA Corporation
+Built on Tue_May_27_02:21:03_PDT_2025
+Cuda compilation tools, release 12.9, V12.9.86
+Build cuda_12.9.r12.9/compiler.36037853_0
+
+===== PYTHON =====
+Python 3.10.13
+
+===== ENV =====
+/orcd/home/002/tekraj/test_performance/.venv/bin/python
