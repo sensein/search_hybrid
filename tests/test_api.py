@@ -2,21 +2,21 @@
 """
 API test script — functional tests, accuracy evaluation, and performance benchmarking.
 
-Golden set is loaded from tests/golden_set.json.
+Golden set is loaded from golden_set.json.
 Regenerate it with:
-    python tests/build_golden_set.py          # ~1000 entries (default)
-    python tests/build_golden_set.py --size 500
+    python build_golden_set.py          # ~1000 entries (default)
+    python build_golden_set.py --size 500
 
 Usage:
-    python tests/test_api.py                              # functional tests only
-    python tests/test_api.py --accuracy                   # + accuracy (Hit@k, MRR) per endpoint
-    python tests/test_api.py --perf                       # + performance benchmark
-    python tests/test_api.py --all                        # everything
-    python tests/test_api.py --url http://host:8000 --all --verbose
-    python tests/test_api.py --wait                       # poll /health until indexing done
-    python tests/test_api.py --accuracy --max-accuracy 200  # limit accuracy queries
-    python tests/test_api.py --all --plot --plot-dir test_results/
-    python tests/test_api.py --all --plot --csv           # also save CSV files
+    python test_api.py                              # functional tests only
+    python test_api.py --accuracy                   # + accuracy (Hit@k, MRR) per endpoint
+    python test_api.py --perf                       # + performance benchmark
+    python test_api.py --all                        # everything
+    python test_api.py --url http://host:8000 --all --verbose
+    python test_api.py --wait                       # poll /health until indexing done
+    python test_api.py --accuracy --max-accuracy 200  # limit accuracy queries
+    python test_api.py --all --plot --plot-dir test_results/
+    python test_api.py --all --plot --csv           # also save CSV files
 """
 
 import argparse
@@ -111,7 +111,7 @@ def load_golden(path: Path = _THIS_DIR / "golden_set.json") -> dict:
     """
     if not path.exists():
         warn(f"golden_set.json not found at {path}")
-        warn("Run:  python tests/build_golden_set.py   to generate it")
+        warn("Run:  python build_golden_set.py   to generate it")
         return {"single": [], "batch": [], "meta": {}}
 
     with open(path) as f:
@@ -416,7 +416,7 @@ def test_accuracy(url: str, verbose: bool, top_k: int = 5, max_queries: Optional
     golden_batch  = GOLDEN.get("batch",  [])
 
     if not golden_single and not golden_batch:
-        warn("No golden set — skipping accuracy tests. Run: python tests/build_golden_set.py")
+        warn("No golden set — skipping accuracy tests. Run: python build_golden_set.py")
         return None
 
     # Optionally limit how many we evaluate (faster smoke-test)
