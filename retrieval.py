@@ -1252,30 +1252,33 @@ class HybridRetriever:
                 - labels (optional, list)
                 - parent_labels (optional, list)
         """
-        # Extract rich texts for BM25 (label + synonyms + alt labels)
-        texts = [build_rich_concept_text(c) for c in concepts_data]
+        use_bm25  = self.bm25_weight  > 0
+        use_dense = self.dense_weight > 0
 
-        logger.info(f"Building hybrid indexes for {corpus_name} (BM25 + dense in parallel)...")
-        # BM25 is CPU/numpy-bound; dense encoding is GPU/PyTorch-bound.
-        # Both release the GIL for their heavy inner loops, so running them
-        # concurrently gives a real wall-clock speedup.
+        mode = "BM25-only" if (use_bm25 and not use_dense) else \
+               "dense-only" if (use_dense and not use_bm25) else "hybrid"
+        logger.info(f"Building {mode} indexes for {corpus_name}...")
+
+        futs = []
         with ThreadPoolExecutor(max_workers=2) as pool:
-            bm25_fut  = pool.submit(self.bm25_model.build_index,  corpus_name, texts)
-            dense_fut = pool.submit(self.dense_model.build_index, corpus_name, concepts_data)
-            done, _ = wait([bm25_fut, dense_fut], return_when=FIRST_EXCEPTION)
+            if use_bm25:
+                texts = [build_rich_concept_text(c) for c in concepts_data]
+                futs.append(pool.submit(self.bm25_model.build_index, corpus_name, texts))
+            if use_dense:
+                futs.append(pool.submit(self.dense_model.build_index, corpus_name, concepts_data))
+            done, _ = wait(futs, return_when=FIRST_EXCEPTION)
             for f in done:
-                f.result()  # re-raise any exception immediately
-            # Wait for the remaining future if the first one succeeded
-            for f in [bm25_fut, dense_fut]:
+                f.result()
+            for f in futs:
                 f.result()
 
     def load_indexes(self, corpus_name: str, count: int) -> bool:
-        """Load all indexes from disk cache without touching the database.
+        """Load indexes from disk cache.
 
-        Returns True only if **both** BM25 and dense caches loaded successfully.
+        Returns True only if all active (non-zero-weight) indexes loaded successfully.
         """
-        bm25_ok = self.bm25_model.load_cached_index(corpus_name, count)
-        dense_ok = self.dense_model.load_cached_index(corpus_name, count)
+        bm25_ok  = self.bm25_model.load_cached_index(corpus_name, count)  if self.bm25_weight  > 0 else True
+        dense_ok = self.dense_model.load_cached_index(corpus_name, count) if self.dense_weight > 0 else True
         if bm25_ok and dense_ok:
             logger.info(f"All indexes loaded from cache for '{corpus_name}' ({count:,} docs)")
         return bm25_ok and dense_ok
@@ -1300,9 +1303,9 @@ class HybridRetriever:
             List of RetrievalCandidate objects sorted by combined score
         """
         t0 = time.perf_counter()
-        bm25_results = self.bm25_model.retrieve(query, corpus_name, k * 2)
+        bm25_results  = self.bm25_model.retrieve(query, corpus_name, k * 2)  if self.bm25_weight  > 0 else []
         t1 = time.perf_counter()
-        dense_results = self.dense_model.retrieve(query, corpus_name, k * 2)
+        dense_results = self.dense_model.retrieve(query, corpus_name, k * 2) if self.dense_weight > 0 else []
         t2 = time.perf_counter()
         logger.info(
             f"[retrieve] BM25={1000*(t1-t0):.1f}ms  Dense={1000*(t2-t1):.1f}ms  "
