@@ -39,6 +39,7 @@ flowchart TB
 For details please refer to [https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md) document.
 ## Running
 - Build the index (offline preferred) or download it from [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore) and put all the indexes/embeddings inside `.cache` directory. Note that it doesn't have to be `.cache` directory, it can be any depends on how you configure in `.env` file.
+- Download the `bioportal.db` from the [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore).
 - Run either using `python -m uvicorn main:app --reload --port 8000` or via docker compose.
 ## Configuration
 ### Retrieval
