@@ -1,8 +1,11 @@
-#Search
+# Search
 
 This implements the search functionality described on the following design document for concept mapping with hybrid retrieval (BM25 + dense embeddings) with pointwise multi-stage re-ranking to find semantically accurate concept mappings from a local SQLite database.
 
 [https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md)
+
+<img width="1507" height="1074" alt="image" src="https://github.com/user-attachments/assets/c0282efb-862e-4a70-990a-36d3d8143c48" />
+
 
 ## Architecture
 ```mermaid
