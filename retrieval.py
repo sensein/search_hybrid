@@ -260,6 +260,9 @@ class BM25Retriever:
                 # stopwords=None avoids any file download; common stopwords
                 # have negligible impact on retrieval quality for short queries
                 query_tokens = bm25s.tokenize(query, stopwords=None)
+                # Guard against empty token list (empty query or all stopwords stripped)
+                if not query_tokens.ids or len(query_tokens.ids[0]) == 0:
+                    return []
                 # num_docs from stored meta (corpus not loaded into memory)
                 meta = self._read_meta(corpus_name)
                 num_docs = meta.get("count", 0) or getattr(retriever, "num_docs", 0)
