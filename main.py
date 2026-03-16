@@ -128,9 +128,9 @@ class ContextualSearchRequest(BaseModel):
 class ResultItem(BaseModel):
     """Individual result item"""
     rank: int
-    class_uri: str
-    preferred_label: str
     ontology_id: str
+    ontology_label: str
+    ontology: str
     original_score: float
     llm_score: float
     late_interaction_score: float
@@ -602,9 +602,9 @@ def map_single_concept(request: ConceptMappingRequest):
         results = [
             ResultItem(
                 rank=i + 1,
-                class_uri=r.class_uri,
-                preferred_label=r.preferred_label,
-                ontology_id=r.ontology_id,
+                ontology_id=r.class_uri,
+                ontology_label=r.preferred_label,
+                ontology=r.ontology_id,
                 original_score=r.original_score,
                 llm_score=r.llm_score,
                 late_interaction_score=r.late_interaction_score,
@@ -644,7 +644,7 @@ def map_single_concept(request: ConceptMappingRequest):
 @app.post("/map/batch", response_model=BatchMappingResponse, tags=["mapping"])
 def map_batch_concepts(request: BatchMappingRequest):
     """
-    Map up to 20 concepts in one request.
+    Map up to 1000 concepts in one request.
 
     **`text`** *(required)* — three accepted formats:
 
@@ -710,12 +710,12 @@ def map_batch_concepts(request: BatchMappingRequest):
         if not concept_context_pairs:
             raise HTTPException(status_code=400, detail="No valid concepts provided")
 
-        if len(concept_context_pairs) > 20:
-            raise HTTPException(status_code=400, detail="Maximum 20 concepts per request")
+        if len(concept_context_pairs) > 1000:
+            raise HTTPException(status_code=400, detail="Maximum 1000 concepts per request")
         
         logger.info(f"[/map/batch] mapping {len(concept_context_pairs)} concepts")
         for concept, context in concept_context_pairs:
-            context_note = f" (context: {context[:50]}...)" if context else ""
+            context_note = f" (context: {context[:100]}...)" if context else ""
             logger.info(f"  - {concept}{context_note}")
         
         # Parse ontologies
@@ -785,9 +785,9 @@ def map_batch_concepts(request: BatchMappingRequest):
             results_dict[concept_text] = [
                 ResultItem(
                     rank=i + 1,
-                    class_uri=r.class_uri,
-                    preferred_label=r.preferred_label,
-                    ontology_id=r.ontology_id,
+                    ontology_id=r.class_uri,
+                    ontology_label=r.preferred_label,
+                    ontology=r.ontology_id,
                     original_score=r.original_score,
                     llm_score=r.llm_score,
                     late_interaction_score=r.late_interaction_score,
@@ -886,9 +886,9 @@ def contextual_search(request: ContextualSearchRequest):
         results = [
             ResultItem(
                 rank=i + 1,
-                class_uri=r.class_uri,
-                preferred_label=r.preferred_label,
-                ontology_id=r.ontology_id,
+                ontology_id=r.class_uri,
+                ontology_label=r.preferred_label,
+                ontology=r.ontology_id,
                 original_score=r.original_score,
                 llm_score=r.llm_score,
                 late_interaction_score=r.late_interaction_score,

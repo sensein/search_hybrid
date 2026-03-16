@@ -69,9 +69,9 @@ class RerankingResult:
 
     def to_dict(self) -> Dict:
         return {
-            "class_uri": self.class_uri,
+            "ontology_id": self.class_uri,
             "preferred_label": self.preferred_label,
-            "ontology_id": self.ontology_id,
+            "ontology": self.ontology_id,
             "original_score": float(self.original_score),
             "llm_score": float(self.llm_score),
             "late_interaction_score": float(self.late_interaction_score),

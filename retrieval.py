@@ -91,9 +91,9 @@ class RetrievalCandidate:
     
     def to_dict(self) -> Dict[str, Any]:
         return {
-            "class_uri": self.class_uri,
+            "ontology_id": self.class_uri,
             "preferred_label": self.preferred_label,
-            "ontology_id": self.ontology_id,
+            "ontology": self.ontology_id,
             "bm25_score": float(self.bm25_score),
             "embedding_score": float(self.embedding_score),
             "combined_score": float(self.combined_score),
