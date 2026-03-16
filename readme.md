@@ -137,7 +137,7 @@ LOG_LEVEL=INFO
 
 - **`/map/concept`** — default for single-term lookups. Use when you have a clean term (`"diabetes mellitus"`, `"COPD"`) and want retrieval scores for debugging.
 - **`/map/search`** — use when you have rich context (clinical note snippet, definition, related terms) and disambiguation matters (`"cold"` → `"common cold"` vs `"cold weather"`).  
-- **`/map/batch`** — use when mapping many terms at once to reduce API round trips. Per-concept context is supported via the `{text, context}` object format.
+- **`/map/batch`** — use when mapping many terms at once to reduce API round trips. Per-concept context is supported via the `{text, context}` object format. **It supports upto 4000 concepts mapping per request.**
 
 ## Pre-building Indexes Offline
 
