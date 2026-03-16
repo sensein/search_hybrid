@@ -644,7 +644,7 @@ def map_single_concept(request: ConceptMappingRequest):
 @app.post("/map/batch", response_model=BatchMappingResponse, tags=["mapping"])
 def map_batch_concepts(request: BatchMappingRequest):
     """
-    Map up to 1000 concepts in one request.
+    Map up to 4000 concepts in one request.
 
     **`text`** *(required)* — three accepted formats:
 
@@ -710,8 +710,8 @@ def map_batch_concepts(request: BatchMappingRequest):
         if not concept_context_pairs:
             raise HTTPException(status_code=400, detail="No valid concepts provided")
 
-        if len(concept_context_pairs) > 1000:
-            raise HTTPException(status_code=400, detail="Maximum 1000 concepts per request")
+        if len(concept_context_pairs) > 4000:
+            raise HTTPException(status_code=400, detail="Maximum 4000 concepts per request")
         
         logger.info(f"[/map/batch] mapping {len(concept_context_pairs)} concepts")
         for concept, context in concept_context_pairs:
