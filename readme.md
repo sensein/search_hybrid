@@ -8,6 +8,7 @@ This implements the search functionality described on the following design docum
 
 
 ## Architecture
+
 ```mermaid
 flowchart TB
  subgraph R1["Retrieval"]
@@ -39,8 +40,11 @@ flowchart TB
     H3 --> WC
     WC --> J
 ```
+
 For details please refer to [https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md) document.
+
 ## Running
+
 - Build the index (offline preferred) or download it from [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore) and put all the indexes/embeddings inside `.cache` directory. Note that it doesn't have to be `.cache` directory, it can be any depends on how you configure in `.env` file.
 - Download the `bioportal.db` from the [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore).
 - Run either using `python -m uvicorn main:app --reload --port 8000` or via docker compose.
@@ -138,6 +142,7 @@ LOG_LEVEL=INFO
 ## Pre-building Indexes Offline
 
 Use `build_index.py` to generate all indexes before starting the server. Note, building indexes is very time consuming task. You can download it from [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore) and place it on `.cache` directory.
+
 ```bash
 # Build with default settings (reads from .env)
 python build_index.py
@@ -152,3 +157,7 @@ python build_index.py --force
 # Use a non-default database
 python build_index.py --db /data/bioportal.db
 ```
+
+## License
+
+[Apache 2.0](LICENSE)

@@ -12,3 +12,4 @@ build/
 bioportal.db
 .cache/
 .venv/
+tests/.venv/
