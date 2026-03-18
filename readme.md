@@ -64,6 +64,7 @@ EMBEDDING_MODEL=BAAI/bge-small-en-v1.5   # Embedding model (fast, biomedical-fri
 
 VECTOR_BACKEND=faiss         # faiss (default) | numpy | chroma
 EMBED_CACHE_DIR=.cache/embed_indexes    # Where .npy and FAISS index are stored
+BM25_CACHE_DIR=indexes_embedding/bm25_indexes # BM25 index cache directory
 CHROMA_DB_PATH=.cache/chroma_db        # Only used when VECTOR_BACKEND=chroma
 ```
 
