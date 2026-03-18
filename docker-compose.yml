@@ -15,6 +15,11 @@ services:
       # Mount cache for model persistence
       - ./cache:/app/.cache
     environment:
+      # Cache Env 
+      - BM25_CACHE_DIR=${BM25_CACHE_DIR}
+      - INDEX_CACHE_DIR=${INDEX_CACHE_DIR}
+      - EMBED_CACHE_DIR=${EMBED_CACHE_DIR}
+
       # API Configuration
       - API_HOST=0.0.0.0
       - API_PORT=8000
