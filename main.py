@@ -231,7 +231,7 @@ async def lifespan(app: FastAPI):
         retriever = HybridRetriever(
             bm25_weight=bm25_weight,
             dense_weight=dense_weight,
-            bm25_model=BM25Retriever(),
+            bm25_model=BM25Retriever(cache_dir=os.getenv("BM25_CACHE_DIR", ".cache/bm25_indexes")),
             dense_model=DenseRetriever(
                 model_name=embedding_model,
                 use_chroma=use_chroma,
