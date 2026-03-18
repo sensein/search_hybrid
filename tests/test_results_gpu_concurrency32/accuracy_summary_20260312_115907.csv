@@ -1,0 +1,5 @@
+endpoint,n,hit_at_1_pct,hit_at_3_pct,hit_at_5_pct,mrr
+/map/concept,550,70.91,83.09,86.18,0.7706
+/map/search,350,72.57,81.71,84.00,0.7711
+/map/batch,99,88.89,95.96,96.97,0.9234
+overall,999,73.27,83.88,86.49,0.7859
