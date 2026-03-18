@@ -1,13 +1,44 @@
-# Search
+# 🧠 Ontology Concept Mapping Engine
 
-This implements the search functionality described on the following design document for concept mapping with hybrid retrieval (BM25 + dense embeddings) with pointwise multi-stage re-ranking to find semantically accurate concept mappings from a local SQLite database.
+![Python](https://img.shields.io/badge/python-3.10+-blue)![License](https://img.shields.io/badge/license-Apache%202.0-green)![Status](https://img.shields.io/badge/status-active-success)![Backend](https://img.shields.io/badge/vector-faiss-orange)
 
-[https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md)
+A high-performance **hybrid retrieval + multi-stage re-ranking system** for semantic concept mapping over ontology databases.
 
-<img width="1507" height="1074" alt="image" src="https://github.com/user-attachments/assets/c0282efb-862e-4a70-990a-36d3d8143c48" />
+---
 
+## 📑 Table of Contents
 
-## Architecture
+- [Overview](#-overview)
+- [Architecture](#-architecture)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Configuration](#-configuration)
+- [API Endpoints](#-api-endpoints)
+- [Indexing](#-indexing)
+- [Performance Notes](#-performance-notes)
+- [License](#-license)
+
+---
+
+## 🚀 Overview
+ 
+This project implements a **hybrid retrieval system for ontology concept mapping**, based on the design outlined in the official design document: [Search Design Document](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md).
+
+It combines **lexical and semantic search** with **multi-stage re-ranking** to accurately map input terms to ontology concepts stored in a local SQLite database. 
+
+---
+
+### 🧠 Core Approach
+
+The system integrates multiple retrieval and ranking strategies:
+
+- **BM25 keyword search** — captures exact and sparse term matches  
+- **Dense embeddings** — enables semantic similarity search  
+- **Hybrid scoring & re-ranking** — balances lexical precision with semantic recall   
+
+---
+
+## 🏗️ Architecture
 
 ```mermaid
 flowchart TB
@@ -41,14 +72,53 @@ flowchart TB
     WC --> J
 ```
 
-For details please refer to [https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md](https://github.com/sensein/structsense/blob/search_design_doc/docs/design_docs/search_design_doc.md) document.
+---
 
-## Running
+## ✨ Features
 
-- Build the index (offline preferred) or download it from [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore) and put all the indexes/embeddings inside `.cache` directory. Note that it doesn't have to be `.cache` directory, it can be any depends on how you configure in `.env` file.
-- Download the `bioportal.db` from the [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore).
-- Run either using `python -m uvicorn main:app --reload --port 8000` or via docker compose.
-## Configuration
+- Hybrid retrieval (BM25 + dense embeddings)
+- Modular re-ranking pipeline
+- FAISS-backed fast vector search
+- Offline index building support
+- API-first design (FastAPI)
+- Scalable batch concept mapping. It supports a batch request with *4000* concept mapping per requests.
+
+---
+
+## ⚡ Quick Start
+
+### 1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Download data
+
+- Ontology DB + indexes + embeddings:
+https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore
+
+Place into:
+```
+.cache/
+``` 
+Note: It does not have to be `.cache`, it can be any name. Just make sure to update the environment variables accordingly to point to the correct location. If it doesn't find the indexes, then it will run the pipeline to generate indexes + embeddings, which is very time consuming and depending on your system, can take up to days or more.
+
+### 3. Run server
+
+```bash
+python -m uvicorn main:app --reload --port 8000
+```
+
+### 4. Docker Deployment
+```bash
+docker compose up
+```
+
+---
+
+## ⚙️ Configuration
+
 ### Retrieval
 
 ```bash
@@ -69,6 +139,20 @@ CHROMA_DB_PATH=.cache/chroma_db        # Only used when VECTOR_BACKEND=chroma
 ```
 
 ### Re-ranking
+Below are the available reranking configuration options. **Note: If you are not using LLM, you do not require Open Router API key**. 
+
+You can use either single re-ranker or ensemble.
+- Single:
+  - llm              — OpenRouter LLM scoring only
+  - late_interaction — ColBERT-like token interaction, local
+  - biomedical       — keyword boost, fastest, fully local
+- Dual (two rerankers, weights auto-normalised):
+  - llm_late         — LLM + late_interaction  (quality + semantics)
+  - llm_biomedical   — LLM + biomedical        (quality + domain boost)
+  - dual_late        — late_interaction + biomedical  (fully local, no API key needed)
+- Triple (all three):
+  - ensemble         — all three (default, best quality, slowest)
+
 ```bash
 # Single reranker:
 RERANKER_TYPE=llm              # OpenRouter API only
@@ -77,13 +161,13 @@ RERANKER_TYPE=biomedical       # keyword boost, fastest, local
 
 # Dual ensemble (two rerankers, weights auto-normalised):
 RERANKER_TYPE=dual_late        # late_interaction + biomedical  ← default (no API key needed)
-RERANKER_TYPE=llm_late         # LLM + late_interaction
-RERANKER_TYPE=llm_biomedical   # LLM + biomedical
+RERANKER_TYPE=llm_late         # LLM + late_interaction ← requires API key
+RERANKER_TYPE=llm_biomedical   # LLM + biomedical ← requires API key
 
 # Triple ensemble:
 RERANKER_TYPE=ensemble         # all three (best quality, slowest)
 
-# Weights (used by whichever components are active; inactive components are ignored)
+# Weights (used by whichever components are active; inactive components,e.g., weight 0, are ignored)
 LLM_WEIGHT=0.5
 LATE_INTERACTION_WEIGHT=0.3
 BIOMEDICAL_WEIGHT=0.2
@@ -114,21 +198,16 @@ EMBED_CACHE_DIR=.cache/embed_indexes
 DATABASE_PATH=bioportal.db
 ```
 
-### API Server
-```bash
-API_HOST=0.0.0.0
-API_PORT=8000
-API_RELOAD=false
-LOG_LEVEL=INFO
-```
+---
 
-## Endpoint Overview
+## 📡 API Endpoints
+
 
 | Endpoint | Method | Purpose |
 |----------|--------|---------|
 | `/map/concept` | POST | Map a **single** term; returns `retrieval_scores`; uses `MAX_CANDIDATES=20` |
 | `/map/search` | POST | Like `/map/concept` but uses `MAX_CANDIDATES=30` (larger pool); designed for context-heavy disambiguation; no `retrieval_scores` in response |
-| `/map/batch` | POST | Map **up to 20** concepts in one call; accepts comma-string, list, or `{text, context}` objects |
+| `/map/batch` | POST | Map **up to 4000** concepts in one call; accepts comma-string, list, or `{text, context}` objects |
 | `/config` | GET | Current server configuration (reranker type, model, backend — no secrets) |
 | `/health` | GET | Readiness check |
 | `/stats` | GET | DB + index statistics |
@@ -140,7 +219,10 @@ LOG_LEVEL=INFO
 - **`/map/search`** — use when you have rich context (clinical note snippet, definition, related terms) and disambiguation matters (`"cold"` → `"common cold"` vs `"cold weather"`).  
 - **`/map/batch`** — use when mapping many terms at once to reduce API round trips. Per-concept context is supported via the `{text, context}` object format. **It supports upto 4000 concepts mapping per request.**
 
-## Pre-building Indexes Offline
+
+---
+
+## 🏗️ Indexing
 
 Use `build_index.py` to generate all indexes before starting the server. Note, building indexes is very time consuming task. You can download it from [https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore](https://huggingface.co/datasets/sensein/ontology-sqlite-vectorstore) and place it on `.cache` directory.
 
@@ -159,6 +241,17 @@ python build_index.py --force
 python build_index.py --db /data/bioportal.db
 ```
 
-## License
+---
 
-[Apache 2.0](LICENSE)
+## ⚡ Performance Notes
+
+- FAISS recommended for production (~50ms search)
+- Avoid Chroma for large datasets
+- Use dual_late for best local performance
+- Ensemble gives best accuracy (slowest)
+
+---
+
+## 📄 License
+
+Apache 2.0
