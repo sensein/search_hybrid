@@ -46,15 +46,22 @@ flowchart TB
         B{"Candidate Retrieval"}
         C1["BM25 / Inverted Index"]
         C2["Vector Search / ANN Index"]
-        HC["Hybrid Combination <br>weighted BM25 + dense scores"]
+        HC["Hybrid Combination<br>weighted BM25 + dense scores"]
         D["Candidate Set (d*)"]
   end
  subgraph R2["Re-ranking"]
         G{"Scoring / Re-rank"}
-        H1["Late-Interaction Encoder"]
-        H2["LLM Reranker"]
-        H3["Biomedical Context Reranker"]
-        WC["Weighted Combination normalize + weighted sum"]
+        subgraph S["Single Rerankers"]
+            H1["LLM Reranker"]
+            H2["Late-Interaction Reranker<br>(ColBERT-like)"]
+            H3["Biomedical Context Reranker<br>(keyword boost)"]
+        end
+        subgraph DU["Dual Options"]
+            D1["llm_late<br>LLM + Late-Interaction"]
+            D2["llm_biomedical<br>LLM + Biomedical"]
+            D3["dual_late<br>Late-Interaction + Biomedical<br>(fully local)"]
+        end
+        WC["Ensemble<br>all three · normalize + weighted sum"]
   end
  subgraph R3["Output"]
         J["Top-k Concepts"]
@@ -65,11 +72,10 @@ flowchart TB
     C2 --> D
     HC --> D
     D --> G
-    G --> H1 & H2 & H3
-    H1 --> WC
-    H2 --> WC
-    H3 --> WC
+    G --> S & DU & WC
     WC --> J
+    S --> J
+    DU --> J
 ```
 
 ---
