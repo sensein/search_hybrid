@@ -136,11 +136,11 @@ def _matches(results: list, acceptable: List[str]) -> Optional[int]:
 
     Args:
         results:    Ordered list of result dicts from the API (index 0 = top/best result).
-                    Each dict has at least a "preferred_label" key (str).
+                    Each dict has at least a "ontology_label" key (str).
         acceptable: List of lowercase string fragments any of which count as a correct match.
                     e.g. ["type 2 diabetes mellitus", "diabetes type ii"]
                     A result matches if ANY acceptable string is a substring of its
-                    lowercased preferred_label.  This is intentionally lenient — it
+                    lowercased ontology_label.  This is intentionally lenient — it
                     handles synonym variations and label reformulations.
 
     Returns:
@@ -158,7 +158,7 @@ def _matches(results: list, acceptable: List[str]) -> Optional[int]:
     """
     for i, r in enumerate(results):
         # Lowercase the returned label for case-insensitive substring matching
-        label = r.get("preferred_label", "").lower()
+        label = r.get("ontology_label", "").lower()
         # Accept if ANY of the acceptable label fragments appears in this label
         if any(a in label for a in acceptable):
             return i + 1  # 1-based: first result in list is rank 1
@@ -234,7 +234,7 @@ def test_single_concept(url, verbose):
         results = data.get("results", [])
         ok = len(results) > 0
         check(f"'{text}'", ok,
-              f"{len(results)} results  top='{results[0]['preferred_label']}'  {data['processing_time_ms']:.0f}ms"
+              f"{len(results)} results  top='{results[0]['ontology_label']}'  {data['processing_time_ms']:.0f}ms"
               if ok else "no results")
     # Verify retrieval_scores are present (feature of /map/concept only)
     r = post(url, "/map/concept", {"text": "diabetes", "max_results": 1})
@@ -261,7 +261,7 @@ def test_contextual_search(url, verbose):
         results = r.json().get("results", [])
         ok = len(results) > 0
         check(f"'{text}'+ctx", ok,
-              f"top='{results[0]['preferred_label']}'  {r.json()['processing_time_ms']:.0f}ms"
+              f"top='{results[0]['ontology_label']}'  {r.json()['processing_time_ms']:.0f}ms"
               if ok else "no results")
 
 
@@ -307,8 +307,8 @@ def test_edge_cases(url, verbose):
     check("Empty text → 422",       r is not None and r.status_code == 422,        f"status={getattr(r,'status_code','err')}")
     r = post(url, "/map/concept", {"text": "diabetes",    "max_results": 99}, verbose)
     check("max_results=99 → 422",   r is not None and r.status_code == 422,        f"status={getattr(r,'status_code','err')}")
-    r = post(url, "/map/batch",   {"text": [f"c{i}" for i in range(25)], "max_results": 1}, verbose)
-    check("Batch >20 → 400/422",    r is not None and r.status_code in (400, 422), f"status={getattr(r,'status_code','err')}")
+    r = post(url, "/map/batch",   {"text": [f"c{i}" for i in range(4001)], "max_results": 1}, verbose)
+    check("Batch >4000 → 400/422",  r is not None and r.status_code in (400, 422), f"status={getattr(r,'status_code','err')}")
     r = post(url, "/map/concept", {"text": "xyzzy_nonexistent_zqpwrx", "max_results": 3}, verbose)
     check("Unknown term graceful",  r is not None and r.status_code == 200,        f"total={r.json().get('total_results',0) if r else 'err'}")
     # /map/search with empty context is still valid
@@ -329,7 +329,7 @@ def _eval_single(url: str, entry: dict, top_k: int):
         return None, "—"
     results = r.json().get("results", [])
     rank = _matches(results, entry["acceptable_labels"])
-    top_label = results[0]["preferred_label"] if results else "—"
+    top_label = results[0]["ontology_label"] if results else "—"
     return rank, top_label
 
 
