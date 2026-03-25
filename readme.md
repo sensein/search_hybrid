@@ -52,7 +52,7 @@ flowchart TB
  subgraph R2["Re-ranking"]
         G{"Scoring / Re-rank"}
         H1["Late-Interaction Encoder"]
-        H2["Cross-Encoder / LLM Reranker"]
+        H2["LLM Reranker"]
         H3["Biomedical Context Reranker"]
         WC["Weighted Combination normalize + weighted sum"]
   end
