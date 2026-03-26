@@ -177,8 +177,8 @@ Similarity score:"""
         query: str,
         candidates: List[Dict[str, Any]],
         top_k: Optional[int] = None,
-        api_key: Optional[str] = None,
-        model_name: Optional[str] = None,
+        openrouter_api_key: Optional[str] = None,
+        openrouter_model: Optional[str] = None,
     ) -> List[Tuple[int, float]]:
         """
         Re-rank candidates using LLM via OpenRouter
@@ -187,14 +187,14 @@ Similarity score:"""
             query: Query text
             candidates: List of candidate dicts with 'preferred_label' and optional 'definition'
             top_k: Return only top-k results
-            api_key: Override OpenRouter API key (takes priority over instance key)
-            model_name: Override OpenRouter model (takes priority over instance model)
+            openrouter_api_key: Override OpenRouter API key (takes priority over instance key)
+            openrouter_model: Override OpenRouter model (takes priority over instance model)
 
         Returns:
             List of (candidate_index, score) tuples, sorted by score descending
         """
-        effective_api_key = api_key or self.api_key
-        effective_model = model_name or self.model_name
+        effective_api_key = openrouter_api_key or self.api_key
+        effective_model = openrouter_model or self.model_name
 
         if not candidates or not effective_api_key:
             return [(i, 0.0) for i in range(len(candidates))]
@@ -264,6 +264,7 @@ class LateInteractionReranker:
         query: str,
         candidates: List[Dict[str, Any]],
         top_k: Optional[int] = None,
+        **_kwargs: Any,
     ) -> List[Tuple[int, float]]:
         """
         Re-rank using late-interaction scoring
@@ -333,6 +334,7 @@ class BiomedicalContextReranker:
         query: str,
         candidates: List[Dict[str, Any]],
         top_k: Optional[int] = None,
+        **_kwargs: Any,
     ) -> List[Tuple[int, float]]:
         """
         Re-rank with biomedical context boost
@@ -466,7 +468,7 @@ class EnsembleReranker:
         # Get scores from active rerankers only
         _zero = [(i, 0.0) for i in range(len(candidates))]
         _t0 = time.perf_counter()
-        llm_results = self.llm.rerank(query, candidates, api_key=openrouter_api_key, model_name=openrouter_model) if self.llm else _zero
+        llm_results = self.llm.rerank(query, candidates, openrouter_api_key=openrouter_api_key, openrouter_model=openrouter_model) if self.llm else _zero
         _t1 = time.perf_counter()
         li_results  = self.late_interaction.rerank(query, candidates) if self.late_interaction else _zero
         _t2 = time.perf_counter()
