@@ -600,17 +600,19 @@ def create_reranker(
             components=components,
         )
 
-    if reranker_type == "llm":
-        logger.info(f"Creating LLMReranker (model: {model})")
-        return LLMReranker(api_key=api_key, model_name=model)
-
-    elif reranker_type == "late_interaction":
-        logger.info(f"Creating LateInteractionReranker (model: {config['late_interaction_model']})")
-        return LateInteractionReranker(model_name=config["late_interaction_model"])
-
-    elif reranker_type == "biomedical":
-        logger.info("Creating BiomedicalContextReranker")
-        return BiomedicalContextReranker()
+    if reranker_type in ("llm", "late_interaction", "biomedical"):
+        # Wrap single rerankers in EnsembleReranker so rerank() returns
+        # List[RerankingResult] instead of List[Tuple[int, float]].
+        logger.info(f"Creating EnsembleReranker (components={{'{reranker_type}'}})")
+        return EnsembleReranker(
+            llm_weight=config["llm_weight"],
+            late_interaction_weight=config["late_interaction_weight"],
+            biomedical_weight=config["biomedical_weight"],
+            openrouter_api_key=api_key,
+            openrouter_model=model,
+            late_interaction_model=config["late_interaction_model"],
+            components={reranker_type},
+        )
     
     else:
         logger.warning(
