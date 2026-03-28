@@ -9,6 +9,8 @@ Functional tests, accuracy evaluation, performance benchmarking, and batch size 
 | `test_api.py` | Main test runner — functional, accuracy, perf, batch size variation |
 | `build_golden_set.py` | Generate `golden_set.json` from `bioportal.db`            |
 | `golden_set.json` | Auto-generated golden set (~900 single + 33 batch groups) |
+| `verify_biomedical_contextrerank.py` | Regression tests for `BiomedicalContextReranker` / `create_reranker()` output type |
+| `filter_test.py` | Unit + API tests for ontology filter (`ontology_ids`) in `HybridRetriever.retrieve()` |
 
 ## Running Tests
 
@@ -151,17 +153,43 @@ python build_golden_set.py --db /path/to/bioportal.db --out golden_set.json
 
 ---
 
+## Running filter_test.py
+
+Tests that the `ontologies` filter is correctly applied during retrieval.
+
+### Unit tests only (no server needed)
+```bash
+python filter_test.py --unit-only
+```
+
+### Unit + API integration tests
+```bash
+python filter_test.py --url http://localhost:8000
+```
+
+Example payload exercised by the API tests:
+```json
+{
+  "text": "kidney disease",
+  "context": "progressive decline in GFR",
+  "max_results": 5,
+  "ontologies": "UPHENO"
+}
+```
+
+---
+
 ## Endpoint Coverage
 
-| Endpoint | Functional | Accuracy | Perf benchmark | Batch size test |
-|----------|------------|----------|----------------|-----------------|
-| `POST /map/concept` | ✓ | ✓ (exact match + synonym groups) | ✓ (100 requests) | — |
-| `POST /map/search`  | ✓ | ✓ (definition context + alt-label groups) | — | — |
-| `POST /map/batch`   | ✓ (3 formats) | ✓ (batch groups) | — | ✓ (sizes 5/10/15/20) |
-| `GET /health`       | ✓ | — | — | — |
-| `GET /ontologies`   | ✓ | — | — | — |
-| `GET /stats`        | ✓ | — | — | — |
-| `GET /config`       | ✓ (metadata fetch) | — | — | — |
+| Endpoint | Functional | Accuracy | Perf benchmark | Batch size test | Filter test |
+|----------|------------|----------|----------------|-----------------|-------------|
+| `POST /map/concept` | ✓ | ✓ (exact match + synonym groups) | ✓ (100 requests) | — | ✓ |
+| `POST /map/search`  | ✓ | ✓ (definition context + alt-label groups) | — | — | — |
+| `POST /map/batch`   | ✓ (3 formats) | ✓ (batch groups) | — | ✓ (sizes 5/10/15/20) | ✓ |
+| `GET /health`       | ✓ | — | — | — | — |
+| `GET /ontologies`   | ✓ | — | — | — | — |
+| `GET /stats`        | ✓ | — | — | — | — |
+| `GET /config`       | ✓ (metadata fetch) | — | — | — | — |
 
 ---
 
