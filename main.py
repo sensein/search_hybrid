@@ -561,6 +561,7 @@ def map_single_concept(request: ConceptMappingRequest):
             corpus_name="main",
             k=int(os.getenv("MAX_CANDIDATES", "20")),
             concepts_map=_concepts_map,
+            ontology_ids=ontology_list,
         )
         _t_retrieve_ms = round((time.time() - _t_retrieve_start) * 1000, 1)
         logger.info(f"[/map/concept] retrieval={_t_retrieve_ms}ms  got {len(candidates)} candidates")
@@ -744,6 +745,7 @@ def map_batch_concepts(request: BatchMappingRequest):
                 corpus_name="main",
                 k=int(os.getenv("MAX_CANDIDATES", "20")),
                 concepts_map=_concepts_map,
+                ontology_ids=ontology_list,
             )
             _t_r1 = time.time()
             logger.info(
@@ -836,7 +838,11 @@ def contextual_search(request: ContextualSearchRequest):
         combined_query = request.text
         if request.context:
             combined_query = f"{request.text} {request.context}"
-        
+
+        ontology_list = None
+        if request.ontologies:
+            ontology_list = [o.strip().upper() for o in request.ontologies.split(",") if o.strip()]
+
         logger.info(f"[/map/search] query='{request.text}' max_results={request.max_results}")
 
         # Retrieve candidates
@@ -846,6 +852,7 @@ def contextual_search(request: ContextualSearchRequest):
             corpus_name="main",
             k=int(os.getenv("MAX_CANDIDATES", "30")),  # Slightly larger for context
             concepts_map=_concepts_map,
+            ontology_ids=ontology_list,
         )
         _t_retrieve_ms = round((time.time() - _t_retrieve_start) * 1000, 1)
         logger.info(f"[/map/search] retrieval={_t_retrieve_ms}ms  got {len(candidates)} candidates")

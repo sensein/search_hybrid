@@ -1292,16 +1292,18 @@ class HybridRetriever:
         corpus_name: str = "default",
         k: int = 10,
         concepts_map: Optional[Dict[int, Dict[str, Any]]] = None,
+        ontology_ids: Optional[List[str]] = None,
     ) -> List[RetrievalCandidate]:
         """
         Hybrid retrieval: combine BM25 and dense results
-        
+
         Args:
             query: Query text
             corpus_name: Name of corpus
             k: Number of results to return
             concepts_map: Mapping of doc_index to concept metadata
-            
+            ontology_ids: Optional list of ontology acronyms to filter results (e.g. ["SNOMEDCT", "MESH"])
+
         Returns:
             List of RetrievalCandidate objects sorted by combined score
         """
@@ -1315,9 +1317,12 @@ class HybridRetriever:
             f"candidates={len(bm25_results)}+{len(dense_results)}"
         )
 
+        # Normalise ontology filter to uppercase set for O(1) lookup
+        ontology_filter = {o.upper() for o in ontology_ids} if ontology_ids else None
+
         # Combine results
         combined = {}
-        
+
         # Add BM25 scores
         if bm25_results:
             max_bm25_score = max(score for _, score in bm25_results) or 1.0
@@ -1342,9 +1347,11 @@ class HybridRetriever:
                 self.bm25_weight * scores["bm25_score"] +
                 self.dense_weight * scores["embedding_score"]
             )
-            
+
             if concepts_map and doc_idx in concepts_map:
                 concept = concepts_map[doc_idx]
+                if ontology_filter and concept.get("ontology_id", "").upper() not in ontology_filter:
+                    continue
                 candidate = RetrievalCandidate(
                     class_uri=concept.get("class_uri", ""),
                     preferred_label=concept.get("preferred_label", ""),
