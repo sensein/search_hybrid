@@ -156,12 +156,33 @@ Similarity score:"""
             
             result = response.json()
             if "choices" in result and len(result["choices"]) > 0:
-                content = result["choices"][0]["message"]["content"].strip()
+                message = result["choices"][0]["message"]
+                # Some models (reasoning/thinking variants) return content=None
+                # and place their output in a separate field.  Fall back through
+                # known alternatives before giving up.
+                content = (
+                    message.get("content")
+                    or message.get("reasoning_content")
+                    or message.get("reasoning")
+                )
+                if not content:
+                    logger.warning(
+                        f"LLM response has no usable content field "
+                        f"(keys={list(message.keys())}). "
+                        f"Try a non-reasoning model (e.g. google/gemini-2.0-flash-lite-001)."
+                    )
+                    return 0.0
+                content = content.strip()
                 try:
                     score = float(content)
                     return max(0.0, min(1.0, score))  # Clamp to [0, 1]
                 except ValueError:
-                    logger.warning(f"Could not parse score from LLM response: {content}")
+                    # Model may have added text around the number — try extracting it
+                    import re as _re
+                    match = _re.search(r"\b(0(\.\d+)?|1(\.0+)?)\b", content)
+                    if match:
+                        return float(match.group())
+                    logger.warning(f"Could not parse score from LLM response: {content!r}")
                     return 0.0
             return 0.0
             

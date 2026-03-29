@@ -247,20 +247,43 @@ def sample_batch_groups(entries_pool: List[dict], rng: random.Random, n_groups: 
     Group concept entries into batch test items.
     Each batch entry contains multiple (query, acceptable) pairs.
     Tested via /map/batch.
+
+    Query texts within each group MUST be unique because the /map/batch API
+    returns results as a dict keyed by concept text — duplicate texts in the
+    same request would collide, silently discarding all but the last result.
     """
-    # Pick entries that have no context (cleaner for batch test)
-    pool = [e for e in entries_pool if e["context"] is None and e["endpoint"] == "concept"]
+    # Pick entries that have no context (cleaner for batch test).
+    # Deduplicate by query text so the pool itself is free of collisions.
+    pool_seen: set = set()
+    pool: List[dict] = []
+    for e in entries_pool:
+        if e["context"] is None and e["endpoint"] == "concept":
+            key = e["query"].lower()
+            if key not in pool_seen:
+                pool_seen.add(key)
+                pool.append(e)
+
     rng.shuffle(pool)
 
     batches = []
     for chunk in _chunks(pool, group_size):
         if len(chunk) < 2:
             break
+        # Final guard: ensure every query text in this chunk is unique.
+        seen_in_chunk: set = set()
+        deduped_chunk = []
+        for e in chunk:
+            key = e["query"].lower()
+            if key not in seen_in_chunk:
+                seen_in_chunk.add(key)
+                deduped_chunk.append(e)
+        if len(deduped_chunk) < 2:
+            continue
         batches.append({
-            "queries": [{"text": e["query"], "context": e.get("context")} for e in chunk],
-            "acceptable_per_concept": [e["acceptable_labels"] for e in chunk],
+            "queries": [{"text": e["query"], "context": e.get("context")} for e in deduped_chunk],
+            "acceptable_per_concept": [e["acceptable_labels"] for e in deduped_chunk],
             "endpoint": "batch",
-            "note": f"batch_group_size_{len(chunk)}",
+            "note": f"batch_group_size_{len(deduped_chunk)}",
         })
         if len(batches) >= n_groups:
             break
@@ -293,12 +316,29 @@ def build(db_path: str, out_path: str, total_size: int, seed: int) -> None:
     defctx  = sample_definition_context(cur, rng, n_defctx)
     syn     = sample_synonym_as_query(cur, rng, n_syn)
     alt     = sample_alt_label_as_query(cur, rng, n_alt)
-    batches = sample_batch_groups(exact + syn, rng, n_batches, group_size=3)
 
     con.close()
 
+    # Global cross-sampler deduplication keyed on (query_lower, context_lower).
+    # Entries with the same text but different contexts are kept as distinct
+    # test cases; entries that are fully identical are dropped.
+    global_seen: set = set()
+    deduped: List[dict] = []
+    for entry in exact + defctx + syn + alt:
+        key = (entry["query"].lower(), (entry["context"] or "").lower())
+        if key not in global_seen:
+            global_seen.add(key)
+            deduped.append(entry)
+
+    removed = len(exact) + len(defctx) + len(syn) + len(alt) - len(deduped)
+    if removed:
+        logger.info(f"Removed {removed} cross-sampler duplicate entries (same query+context)")
+
+    # Build batch groups AFTER global dedup so the pool is already unique.
+    batches = sample_batch_groups(deduped, rng, n_batches, group_size=3)
+
     # Flatten into a single list; batch entries are structured differently
-    all_entries = exact + defctx + syn + alt
+    all_entries = deduped
     rng.shuffle(all_entries)
 
     result = {
