@@ -6,6 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        CACHE_DIR: "/app/.cache"
     container_name: bioportal-concept-mapping
     ports:
       - "8000:8000"
@@ -13,7 +15,7 @@ services:
       # Mount database
       - ./bioportal.db:/app/bioportal.db:ro
       # Mount cache for model persistence
-      - ./cache:/app/.cache
+      - ${CACHE_ROOT}:/app/.cache    # Docker will auto create ${CACHE_ROOT} if it does not exist
     environment:
       # Cache Env 
       - BM25_CACHE_DIR=${BM25_CACHE_DIR}
@@ -67,10 +69,6 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
-
-volumes:
-  cache:
-    driver: local
 
 networks:
   default:

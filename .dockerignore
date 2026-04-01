@@ -1,0 +1,26 @@
+# Ignore the .git directory
+.git
+.gitignore
+
+# Ignore all 'logs' subdirectories anywhere in the context
+**/logs/
+
+# Ignore log files
+*.log
+
+# Ignore the directory containing cached index files
+.cache/
+indexed_files/
+
+# Exclude the Dockerfile itself
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Other files
+env.example
+.env
+readme.md
+LICENSE
+evaluation/
+tests/
