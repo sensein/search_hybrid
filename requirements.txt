@@ -5,7 +5,7 @@ python-dotenv==1.0.0
 requests==2.31.0
 torch>=2.1
 torchvision>=0.16
-transformers==4.38.0
+transformers==4.57.5
 sentence-transformers==2.7.0
 numpy==1.26.4
 scikit-learn==1.4.2
@@ -13,4 +13,4 @@ tqdm==4.66.1
 psutil>=5.9
 bm25s==0.2.0
 faiss-cpu==1.8.0
-huggingface_hub>=0.20
+huggingface_hub==0.36.2
