@@ -40,7 +40,7 @@ RUN pip install --upgrade pip && \
     pip install --no-cache /wheels/*
 
 # Cache directory location
-ARG CACHE_DIR
+ARG CACHE_DIR=/app/.cache
 
 # Copy application. The COPY command will automatically ignore the patterns listed in .dockerignore
 COPY . .
