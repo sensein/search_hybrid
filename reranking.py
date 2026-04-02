@@ -250,35 +250,90 @@ Similarity score:"""
 
 
 class LateInteractionReranker:
-    """Late-Interaction (ColBERT-like) re-ranking"""
+    """Late-Interaction (ColBERT-like) re-ranking using token embedding similarity (MaxSim).
+
+    Each query token is encoded into a vector; for each query token the maximum
+    cosine similarity across all document token vectors is accumulated (MaxSim).
+    Falls back to exact token matching if the sentence-transformers model cannot
+    be loaded.
+    """
 
     def __init__(self, model_name: str = "jinaai/jina-colbert-v2"):
         """
-        Initialize late-interaction reranker
-        
+        Initialize late-interaction reranker.
+
+        Attempts to load ``model_name`` via sentence-transformers for true
+        token-embedding MaxSim.  If loading fails (model not installed, no
+        network, etc.) the instance falls back to exact lowercase token
+        matching so the reranker remains functional without a GPU/download.
+
         Args:
-            model_name: Hugging Face model name (ColBERT or derivative)
+            model_name: Hugging Face model name (ColBERT or bi-encoder derivative).
+                        Default: ``jinaai/jina-colbert-v2``.
         """
-        self.tokenizer = None
-        self.model = None
         self.model_name = model_name
-        logger.info(f"LateInteractionReranker initialized (token-level matching, no model load)")
+        self.model = None
+        self._use_embedding = False
+
+        try:
+            from sentence_transformers import SentenceTransformer
+            import torch
+            if torch.backends.mps.is_available():
+                device = "mps"
+            elif torch.cuda.is_available():
+                device = "cuda"
+            else:
+                device = "cpu"
+            self.model = SentenceTransformer(model_name, device=device)
+            self._use_embedding = True
+            logger.info(
+                f"LateInteractionReranker initialized with embedding model "
+                f"'{model_name}' on {device}"
+            )
+        except Exception as e:
+            logger.warning(
+                f"LateInteractionReranker could not load '{model_name}' "
+                f"({e}); falling back to exact token matching"
+            )
+
+    def _embed_tokens(self, tokens: List[str]) -> np.ndarray:
+        """Encode a list of token strings into L2-normalised vectors (shape: T x D)."""
+        vecs = np.asarray(
+            self.model.encode(tokens, convert_to_numpy=True, normalize_embeddings=True)
+        )
+        return vecs  # shape (T, D), each row unit-norm
 
     def _get_late_interaction_score(self, query_tokens: List[str], doc_tokens: List[str]) -> float:
         """
-        Compute simple late-interaction score (MaxSim)
-        This is a simplified version; production would use more sophisticated matching
+        Compute MaxSim late-interaction score.
+
+        If the embedding model is available:
+            score = (1/|T_q|) * sum_i  max_j  cos(E_q[i], E_d[j])
+        where E_q, E_d are token embedding matrices (L2-normalised), so
+        inner product equals cosine similarity directly.
+
+        Fallback (no model):
+            score = (1/|T_q|) * sum_i  max_j  1[t_i == t_j]  (exact match)
         """
+        if not query_tokens:
+            return 0.0
+
+        if self._use_embedding and doc_tokens:
+            E_q = self._embed_tokens(query_tokens)   # (|T_q|, D)
+            E_d = self._embed_tokens(doc_tokens)     # (|T_d|, D)
+            # cosine similarity matrix (|T_q| x |T_d|) via inner product
+            sim_matrix = E_q @ E_d.T                 # unit-norm -> IP == cosine
+            maxsim = sim_matrix.max(axis=1)          # best doc-token per query-token
+            return float(maxsim.mean())
+
+        # Exact-match fallback
         score = 0.0
         for q_token in query_tokens:
-            best_match = 0.0
             for d_token in doc_tokens:
-                # Simple token-level similarity (would use embedding similarity in production)
                 if q_token.lower() == d_token.lower():
-                    best_match = 1.0
+                    score += 1.0
                     break
-            score += best_match
-        return score / len(query_tokens) if query_tokens else 0.0
+        return score / len(query_tokens)
 
     def rerank(
         self,
@@ -288,15 +343,16 @@ class LateInteractionReranker:
         **_kwargs: Any,
     ) -> List[Tuple[int, float]]:
         """
-        Re-rank using late-interaction scoring
-        
+        Re-rank using late-interaction MaxSim scoring.
+
         Args:
-            query: Query text
-            candidates: List of candidate dicts
-            top_k: Return only top-k results
-            
+            query: Query text (tokenized by whitespace split).
+            candidates: List of candidate dicts with ``preferred_label``
+                        and optionally ``definition``.
+            top_k: Return only top-k results.
+
         Returns:
-            List of (candidate_index, score) tuples, sorted by score descending
+            List of (candidate_index, score) tuples, sorted by score descending.
         """
         if not candidates:
             return []
@@ -304,22 +360,25 @@ class LateInteractionReranker:
         try:
             query_tokens = query.lower().split()
             results = []
-            
+
             for i, candidate in enumerate(candidates):
                 evidence = candidate.get("preferred_label", "")
                 if candidate.get("definition"):
                     evidence += " " + candidate["definition"]
-                
+
                 doc_tokens = evidence.lower().split()
                 score = self._get_late_interaction_score(query_tokens, doc_tokens)
                 results.append((i, float(score)))
-            
+
             results.sort(key=lambda x: x[1], reverse=True)
-            
+
             if top_k:
                 results = results[:top_k]
-            
-            logger.debug(f"Late-interaction reranking complete: {len(results)} candidates")
+
+            logger.debug(
+                f"Late-interaction reranking complete: {len(results)} candidates "
+                f"({'embedding' if self._use_embedding else 'exact-match fallback'})"
+            )
             return results
         except Exception as e:
             logger.error(f"Late-interaction reranking failed: {e}")

@@ -1,0 +1,26 @@
+# Large data files — mounted at runtime, not baked into image
+bioportal.db
+indexes_embedding/
+*.db
+
+# Cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+*.egg-info/
+
+# Dev/test files
+tests/
+evaluation/
+*.tex
+*.toc
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Env files
+.env
+*.env

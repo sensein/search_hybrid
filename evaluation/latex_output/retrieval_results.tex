@@ -1,0 +1,82 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llccc}
+\toprule
+Aggregate & Run & \multicolumn{3}{c}{Strict} \\
+& & Hits@1 / MRR@1 & Hits@3 / MRR@3 & Hits@5 / MRR@5 \\
+\midrule
+Micro & single\_late\_interaction & 76.5\% [75.3, 77.7] / 76.5\% [75.3, 77.8] & 85.1\% [84.0, 86.1] / 80.3\% [79.2, 81.4] & 88.3\% [87.3, 89.2] / 81.0\% [80.0, 82.1] \\
+ & single\_biomedical & 60.0\% [58.6, 61.4] / 60.0\% [58.6, 61.4] & 80.2\% [79.0, 81.3] / 68.9\% [67.7, 70.0] & 86.9\% [85.9, 87.9] / 70.4\% [69.3, 71.5] \\
+ & single\_llm & \textbf{82.2\%} [81.1, 83.3] / \textbf{82.2\%} [81.1, 83.3] & \textbf{89.8\%} [88.8, 90.6] / \textbf{85.6\%} [84.6, 86.5] & \textbf{91.5\%} [90.6, 92.3] / \textbf{86.0\%} [85.0, 86.9] \\
+\cmidrule(lr){1-5}
+ & dual\_llm\_late & \underline{80.9\%} [79.7, 82.0] / \underline{80.9\%} [79.8, 82.1] & 86.1\% [85.0, 87.0] / \underline{83.2\%} [82.2, 84.3] & 88.3\% [87.3, 89.2] / \underline{83.7\%} [82.7, 84.8] \\
+ & dual\_llm\_biomedical & 74.1\% [72.8, 75.3] / 74.1\% [72.8, 75.4] & \underline{87.9\%} [86.9, 88.8] / 80.4\% [79.4, 81.4] & \underline{90.7\%} [89.8, 91.5] / 81.0\% [80.0, 82.0] \\
+ & dual\_late & 72.7\% [71.3, 73.9] / 72.7\% [71.4, 74.0] & 83.7\% [82.6, 84.7] / 77.5\% [76.4, 78.6] & 87.2\% [86.2, 88.1] / 78.3\% [77.2, 79.4] \\
+\cmidrule(lr){1-5}
+ & ensemble & 79.4\% [78.2, 80.5] / 79.4\% [78.2, 80.6] & 86.2\% [85.2, 87.2] / 82.4\% [81.4, 83.5] & 88.4\% [87.4, 89.3] / 82.9\% [81.9, 83.9] \\
+\midrule
+Macro & single\_late\_interaction & 76.5\% / 76.5\% & 85.1\% / 80.3\% & 88.3\% / 81.0\% \\
+ & single\_biomedical & 60.0\% / 60.0\% & 80.2\% / 68.9\% & 86.9\% / 70.4\% \\
+ & single\_llm & \textbf{82.2\%} / \textbf{82.2\%} & \textbf{89.8\%} / \textbf{85.6\%} & \textbf{91.5\%} / \textbf{86.0\%} \\
+ & dual\_llm\_late & \underline{80.9\%} / \underline{80.9\%} & 86.1\% / \underline{83.2\%} & 88.3\% / \underline{83.7\%} \\
+ & dual\_llm\_biomedical & 74.1\% / 74.1\% & \underline{87.9\%} / 80.4\% & \underline{90.7\%} / 81.0\% \\
+ & dual\_late & 72.7\% / 72.7\% & 83.7\% / 77.5\% & 87.2\% / 78.3\% \\
+ & ensemble & 79.4\% / 79.4\% & 86.2\% / 82.4\% & 88.4\% / 82.9\% \\
+\bottomrule
+\end{tabular}%
+}% end resizebox
+\caption{Retrieval performance across all run configurations under Strict Matching. Each cell reports Hits@k / MRR@k. Micro aggregates all query--endpoint pairs; macro averages endpoint-level scores.}
+\label{tab:all_results_strict}
+\end{table*}
+
+\clearpage
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llccc}
+\toprule
+Aggregate & Run & \multicolumn{3}{c}{Semantic} \\
+& & Hits@1 / MRR@1 & Hits@3 / MRR@3 & Hits@5 / MRR@5 \\
+\midrule
+Micro & single\_late\_interaction & 81.3\% [80.1, 82.4] / 81.3\% [80.1, 82.4] & 87.6\% [86.6, 88.5] / 84.1\% [83.1, 85.1] & 89.6\% [88.7, 90.5] / 84.6\% [83.6, 85.5] \\
+ & single\_biomedical & 66.7\% [65.3, 68.0] / 66.7\% [65.3, 68.0] & 85.0\% [83.9, 86.0] / 74.7\% [73.6, 75.9] & 89.5\% [88.5, 90.3] / 75.8\% [74.7, 76.8] \\
+ & single\_llm & \textbf{86.3\%} [85.3, 87.3] / \textbf{86.3\%} [85.3, 87.3] & \textbf{91.2\%} [90.3, 92.0] / \textbf{88.5\%} [87.6, 89.3] & \textbf{92.6\%} [91.8, 93.3] / \textbf{88.8\%} [87.9, 89.6] \\
+\cmidrule(lr){1-5}
+ & dual\_llm\_late & \underline{84.1\%} [83.0, 85.1] / \underline{84.1\%} [83.0, 85.2] & 87.6\% [86.6, 88.5] / \underline{85.6\%} [84.7, 86.6] & 89.5\% [88.6, 90.4] / \underline{86.1\%} [85.1, 87.1] \\
+ & dual\_llm\_biomedical & 78.3\% [77.1, 79.5] / 78.3\% [77.1, 79.5] & \underline{89.4\%} [88.5, 90.3] / 83.4\% [82.5, 84.4] & \underline{91.8\%} [90.9, 92.5] / 84.0\% [83.0, 84.9] \\
+ & dual\_late & 77.7\% [76.4, 78.9] / 77.7\% [76.4, 78.9] & 86.6\% [85.6, 87.6] / 81.6\% [80.6, 82.6] & 88.5\% [87.6, 89.4] / 82.0\% [81.0, 83.1] \\
+\cmidrule(lr){1-5}
+ & ensemble & 82.7\% [81.6, 83.8] / 82.7\% [81.6, 83.8] & 87.8\% [86.8, 88.7] / 85.0\% [84.0, 86.0] & 89.6\% [88.7, 90.5] / 85.4\% [84.4, 86.4] \\
+\midrule
+Macro & single\_late\_interaction & 81.3\% / 81.3\% & 87.6\% / 84.1\% & 89.6\% / 84.6\% \\
+ & single\_biomedical & 66.7\% / 66.7\% & 85.0\% / 74.7\% & 89.5\% / 75.8\% \\
+ & single\_llm & \textbf{86.3\%} / \textbf{86.3\%} & \textbf{91.2\%} / \textbf{88.5\%} & \textbf{92.6\%} / \textbf{88.8\%} \\
+ & dual\_llm\_late & \underline{84.1\%} / \underline{84.1\%} & 87.6\% / \underline{85.6\%} & 89.5\% / \underline{86.1\%} \\
+ & dual\_llm\_biomedical & 78.3\% / 78.3\% & \underline{89.4\%} / 83.4\% & \underline{91.8\%} / 84.0\% \\
+ & dual\_late & 77.7\% / 77.7\% & 86.6\% / 81.6\% & 88.5\% / 82.0\% \\
+ & ensemble & 82.7\% / 82.7\% & 87.8\% / 85.0\% & 89.6\% / 85.4\% \\
+\bottomrule
+\end{tabular}%
+}% end resizebox
+\caption{Retrieval performance across all run configurations under Semantic Matching. Each cell reports Hits@k / MRR@k. Micro aggregates all query--endpoint pairs; macro averages endpoint-level scores.}
+\label{tab:all_results_semantic}
+\end{table*}
+\end{document}
