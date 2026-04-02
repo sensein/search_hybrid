@@ -1,4 +1,8 @@
-# Large data files — mounted at runtime, not baked into image
+# Git
+.git
+.gitignore
+
+# Large data files — mounted at runtime
 bioportal.db
 indexes_embedding/
 *.db
@@ -10,6 +14,13 @@ __pycache__/
 .cache/
 *.egg-info/
 
+# Logs
+*.log
+**/logs/
+
+# Indexed / cached files
+indexed_files/
+
 # Dev/test files
 tests/
 evaluation/
@@ -17,10 +28,16 @@ evaluation/
 *.toc
 *.log
 
-# Git
-.git/
-.gitignore
-
 # Env files
 .env
 *.env
+env.example
+
+# Docker-related (optional depending on use)
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Misc
+readme.md
+LICENSE

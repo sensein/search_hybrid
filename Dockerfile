@@ -39,11 +39,14 @@ COPY --from=builder /app/requirements.txt .
 RUN pip install --upgrade pip && \
     pip install --no-cache /wheels/*
 
-# Copy application
+# Cache directory location
+ARG CACHE_DIR=/app/.cache
+
+# Copy application. The COPY command will automatically ignore the patterns listed in .dockerignore
 COPY . .
 
 # Create cache directory
-RUN mkdir -p .cache/ontology_indexes
+RUN mkdir -p ${CACHE_DIR}/ontology_indexes
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
