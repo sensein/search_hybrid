@@ -107,7 +107,8 @@ API_QUERIES = [
 
 def test_unit_late_interaction():
     section("Unit — LateInteractionReranker")
-    reranker = LateInteractionReranker()
+    model_name = os.getenv("LATE_INTERACTION_MODEL", "jinaai/jina-colbert-v2")
+    reranker = LateInteractionReranker(model_name=model_name)
 
     results = reranker.rerank(QUERY_DIABETES, CANDIDATES, top_k=3)
     check("Returns list",          isinstance(results, list))
