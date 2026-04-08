@@ -1,0 +1,215 @@
+{
+  "totals": {
+    "single_entries": 1350,
+    "batch_groups": 50,
+    "batch_queries_flat": 150,
+    "total_flat": 1500
+  },
+  "query_type_breakdown": {
+    "exact_match_no_context": {
+      "count": 623,
+      "pct": 41.5,
+      "single": 525,
+      "batch": 98
+    },
+    "exact_match_with_definition_context": {
+      "count": 375,
+      "pct": 25.0,
+      "single": 375,
+      "batch": 0
+    },
+    "synonym_as_query_with_context": {
+      "count": 284,
+      "pct": 18.9,
+      "single": 244,
+      "batch": 40
+    },
+    "synonym_as_query_without_context": {
+      "count": 68,
+      "pct": 4.5,
+      "single": 56,
+      "batch": 12
+    },
+    "alt_label_as_query_with_definition_context": {
+      "count": 150,
+      "pct": 10.0,
+      "single": 150,
+      "batch": 0
+    }
+  },
+  "context_presence": {
+    "with_context": {
+      "count": 662,
+      "pct": 44.1
+    },
+    "without_context": {
+      "count": 838,
+      "pct": 55.9
+    }
+  },
+  "context_source_breakdown": {
+    "none": {
+      "count": 691,
+      "pct": 46.1
+    },
+    "definition": {
+      "count": 525,
+      "pct": 35.0
+    },
+    "synonyms": {
+      "count": 284,
+      "pct": 18.9
+    }
+  },
+  "endpoint_breakdown": {
+    "concept": {
+      "count": 825,
+      "pct": 55.0
+    },
+    "search": {
+      "count": 525,
+      "pct": 35.0
+    },
+    "batch": {
+      "count": 150,
+      "pct": 10.0
+    }
+  },
+  "ontology_coverage": {
+    "unique_ontologies": 94,
+    "top_ontologies": {
+      "UPHENO": 284,
+      "RCD": 167,
+      "IOBC": 159,
+      "PR": 122,
+      "MEDDRA": 95,
+      "CHEBI": 50,
+      "EFO": 45,
+      "BERO": 44,
+      "HP": 40,
+      "NCBITAXON": 38,
+      "DOVES": 26,
+      "MESH": 22,
+      "LOINC": 15,
+      "CIDO": 15,
+      "FOODON": 13
+    }
+  },
+  "query_length_stats": {
+    "mean": 27.23,
+    "median": 25.0,
+    "min": 3,
+    "max": 77,
+    "stdev": 14.08
+  },
+  "meta_from_file": {
+    "total_single": 1350,
+    "total_batch_groups": 50,
+    "breakdown": {
+      "exact_match_no_context": 525,
+      "exact_match_with_definition_context": 375,
+      "synonym_as_query_with_context": 244,
+      "synonym_as_query_without_context": 56,
+      "alt_label_as_query_with_definition_context": 150,
+      "batch_groups": 50
+    },
+    "ontology_breakdown": {
+      "UPHENO": 284,
+      "RCD": 167,
+      "IOBC": 159,
+      "PR": 122,
+      "MEDDRA": 95,
+      "CHEBI": 50,
+      "EFO": 45,
+      "BERO": 44,
+      "HP": 40,
+      "NCBITAXON": 38,
+      "DOVES": 26,
+      "MESH": 22,
+      "LOINC": 15,
+      "CIDO": 15,
+      "FOODON": 13,
+      "TTO": 11,
+      "OMCO": 10,
+      "BIOMODELS": 10,
+      "HINO": 9,
+      "NMDCO": 8,
+      "CHIRO": 8,
+      "PCL": 8,
+      "CTCAE": 8,
+      "ONTOAD": 7,
+      "MAXO": 7,
+      "RETO": 7,
+      "FMA": 5,
+      "OFL": 5,
+      "NIFDYS": 5,
+      "AISM": 5,
+      "HRA": 4,
+      "MOP": 4,
+      "VBO": 4,
+      "NPOKB": 4,
+      "OAE": 4,
+      "OCHV": 3,
+      "NIGO": 3,
+      "WB-PHENOTYPE": 3,
+      "BAO": 3,
+      "NIFSTD": 3,
+      "KOIO": 3,
+      "PNADO": 2,
+      "OBI": 2,
+      "SWO": 2,
+      "BPT": 2,
+      "PLANTSO": 2,
+      "PTO": 2,
+      "CLO": 2,
+      "GSSO": 2,
+      "DTO": 2,
+      "ELECTRICA": 2,
+      "HRDO": 2,
+      "HELIFIT": 1,
+      "RNPRIO": 1,
+      "NCRO": 1,
+      "COVID-19": 1,
+      "HHEAR": 1,
+      "VFB_DRIVERS": 1,
+      "ORNASEQ": 1,
+      "OBIB": 1,
+      "PHFUMIADO": 1,
+      "CNO": 1,
+      "OCRE": 1,
+      "ORCS": 1,
+      "TRAK": 1,
+      "EDAM": 1,
+      "OCCO": 1,
+      "BBO": 1,
+      "ADO": 1,
+      "IDODEN": 1,
+      "PO": 1,
+      "CARO": 1,
+      "DREAMDNPTO": 1,
+      "HAROREADO": 1,
+      "AIDENTIFYAGE": 1,
+      "PW": 1,
+      "OHPI": 1,
+      "OCS": 1,
+      "MMO": 1,
+      "PLANP": 1,
+      "NMOSP": 1,
+      "ONTOLURGENCES": 1,
+      "GECKO": 1,
+      "OBO": 1,
+      "ICPC2P": 1,
+      "EUPATH": 1,
+      "EPIE": 1,
+      "XAO": 1,
+      "UPA": 1,
+      "HHEARP": 1,
+      "DDSS": 1,
+      "ECO": 1,
+      "HFO": 1,
+      "IDOMAL": 1
+    },
+    "db": "/Users/tekrajchhetri/Documents/brainypedia_codes_design/search_hybrid/bioportal.db",
+    "seed": 422
+  }
+}

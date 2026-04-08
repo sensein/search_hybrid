@@ -383,13 +383,12 @@ def build(db_path: str, out_path: str, total_size: int, seed: int) -> None:
         logger.info(f"Removed {removed} cross-sampler duplicate entries (same query+context)")
 
     # Build batch groups AFTER global dedup so the pool is already unique.
-    batches, batch_query_texts = sample_batch_groups(deduped, rng, n_batches, group_size=3)
+    batches = sample_batch_groups(deduped, rng, n_batches, group_size=3)[0]
 
-    # Remove entries used in batch from single to ensure cross-list uniqueness.
-    all_entries = [e for e in deduped if e["query"].lower() not in batch_query_texts]
-    removed_from_single = len(deduped) - len(all_entries)
-    if removed_from_single:
-        logger.info(f"Moved {removed_from_single} entries from single → batch (cross-list dedup)")
+    # Batch tests /map/batch; single entries test /map/concept and /map/search.
+    # The same query may appear in both lists — it is testing a different endpoint,
+    # not a duplicate. Total flat = single + batch queries.
+    all_entries = list(deduped)
     rng.shuffle(all_entries)
 
     # Per-ontology breakdown of single entries (useful for dataset stats).
