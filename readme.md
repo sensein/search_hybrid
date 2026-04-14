@@ -40,43 +40,8 @@ The system integrates multiple retrieval and ranking strategies:
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart TB
- subgraph R1["Retrieval"]
-        B{"Candidate Retrieval"}
-        C1["BM25 / Inverted Index"]
-        C2["Vector Search / ANN Index"]
-        HC["Hybrid Combination<br>weighted BM25 + dense scores"]
-        D["Candidate Set (d*)"]
-  end
- subgraph R2["Re-ranking"]
-        G{"Scoring / Re-rank"}
-        subgraph S["Single Rerankers"]
-            H1["LLM Reranker"]
-            H2["Late-Interaction Reranker<br>(ColBERT-like)"]
-            H3["Biomedical Context Reranker<br>(keyword boost)"]
-        end
-        subgraph DU["Dual Options"]
-            D1["llm_late<br>LLM + Late-Interaction"]
-            D2["llm_biomedical<br>LLM + Biomedical"]
-            D3["dual_late<br>Late-Interaction + Biomedical<br>(fully local)"]
-        end
-        WC["Ensemble<br>all three · normalize + weighted sum"]
-  end
- subgraph R3["Output"]
-        J["Top-k Concepts"]
-  end
-    A["Query / Input Term"] --> B
-    B --> C1 & C2 & HC
-    C1 --> D
-    C2 --> D
-    HC --> D
-    D --> G
-    G --> S & DU & WC
-    WC --> J
-    S --> J
-    DU --> J
-```
+<img width="3334" height="1806" alt="concept_mapping_search-1" src="https://github.com/user-attachments/assets/3eea68ff-f235-4406-8b2d-c3cf68c4e771" />
+
 
 ---
 
