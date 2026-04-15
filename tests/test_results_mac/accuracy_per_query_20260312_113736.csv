@@ -1,0 +1,1000 @@
+query,endpoint,note,rank,not_found,hit_at_1,hit_at_3,hit_at_5,reciprocal_rank,top_label
+Boletus chippewaensis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Boletus chippewaensis
+pyrrolidinecarboxylic acid,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,pyrrolidinecarboxylic acid
+calcium channel voltage-dependent subunit beta 4,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,voltage-dependent L-type calcium channel subunit beta-4
+Supravalvular aortic stenosis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,supravalvular aortic stenosis
+Sound - physical agent,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Sound - physical agent
+milk coagulating enzyme,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,milk-clotting enzyme
+Grade 3 Pharyngeal necrosis,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Grade 3 Pharyngeal necrosis
+Specific decomposition rate constant microbial biomass,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Specific decomposition rate constant microbial biomass
+Bio Diagnostics double-sided adhesive strip,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Bio Diagnostics double-sided adhesive strip
+Lack of tear production,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Lack of tear production
+Superficial femoral artery injury,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Superficial femoral artery injury
+Transferases,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Transferases
+"pectoral fin lepidotrichium 1 quality, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"pectoral fin lepidotrichium 1 quality, abnormal"
+"amacrine cell retina normal amount, abnormal",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"amacrine cell retina normal amount, abnormal"
+mucus,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Mucus
+Advanced Prostate Carcinoma,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Advanced Prostate Carcinoma
+Giant solitary trichoepithelioma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Giant solitary trichoepithelioma
+increased kidney glutathione peroxidase activity,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,increased kidney glutathione peroxidase activity
+abnormal response to mitotic cell cycle checkpoint signaling,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,abnormal response to mitotic cell cycle spindle assembly checkpoint signaling
+Pneumoconiosis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Pneumoconiosis
+structural similarity evidence,/map/search,exact_match_with_definition_context,,1,0,0,0,0.0000,gene expression similarity evidence
+trimetobenzamida,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,trimethobenzamide
+solute carrier family 15 member 2 (zebrafish),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,solute carrier family 15 member 2 (zebrafish)
+"Potassium, Dietary",/map/concept,synonym_as_query,1,0,1,1,1,1.0000,"Potassium, Dietary [Chemical/Ingredient]"
+sulfate assimilation,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,sulfate assimilation pathway
+phellem,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,phellem
+Carapus pindae,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Carapus mourlani
+viridomycin F,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Viridomycin F
+Phebalium grandiflorum,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Erythronium grandiflorum subsp. grandiflorum
+Abnormal coronary sinus morphology,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,abnormal coronary sinus valve morphology
+cellular communication network factor 6 (human),/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,cellular communication network factor 6 isoform 1 (human)
+Ceftizoxime poisoning of undetermined intent,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Ceftizoxime poisoning of undetermined intent
+DnaK,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,dnaK gene
+vilazodone(1+),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,vilazodone(1+)
+Region of main bile duct,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Region of main bile duct
+Acth-Independent Macronodular Adrenocortical Hyperplasia,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Cushing syndrome due to bilateral macronodular adrenocortical disease
+Intentional cephalexin overdose,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Intentional cephalexin overdose
+restrictive cardiomyopathy,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,restrictive cardiomyopathy
+Neoscopelus bruuni,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Neoscopelus macrolepidotus
+cholinergic agonist,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,cholinergic agonist therapy
+Malformation of teeth,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,abnormal crown morphology of the teeth
+Epidemic vertigo,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Epidemic vertigo
+Harvey and Bradshaw index,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Harvey and Bradshaw index
+KCNB2 gene,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,KCNB2 gene
+Episodic ataxia with myokymia,/map/concept,synonym_as_query,5,0,0,0,1,0.2000,Episodic ataxia with slurred speech
+hereditary spastic paraplegia 11,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,hereditary spastic paraplegia 11
+"N(6),2'-O-dimethyladenosine",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"N(6),2'-O-dimethyladenosine"
+olfactory neuroepithelium,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,olfactory organ
+mSUFU/iso:1,/map/concept,synonym_as_query,,1,0,0,0,0.0000,"ISOSOURCE 1.5 CAL LIQUID,250ML"
+Enterovirus RT-PCR in urine,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Positive enterovirus urine nucleic acid test
+Melanocytic naevus,/map/concept,synonym_as_query,5,0,0,0,1,0.2000,Benign melanocytic naevus of skin
+equine arteritis virus,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,"EAV nucleocapsid protein, Equine arteritis virus"
+Keratitis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,superficial keratitis
+Cupping of optic nerve,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Cupping of optic nerve
+Malignant neoplasm of body of stomach stage I,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Malignant neoplasm of body of stomach stage I
+Hematochezia,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,hematochezia
+phosphatidylethanolamine 42:5,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,phosphatidylethanolamine 42:5
+dopaminergic neuron,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,dopaminergic neuron
+"atrium decreased size, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"atrium decreased size, abnormal"
+Asteroid hyalosis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Asteroid hyalosis
+Consecutive hemorrhage,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Postoperative Hemorrhage
+SREBP1A/2:NF-Y:SP1:CYP51A1 gene,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,SREBP1A/2:NF-Y:SP1:CYP51A1 gene
+human neocasomorphin(1-),/map/concept,synonym_as_query,1,0,1,1,1,1.0000,neocasomorphin(1-)
+Male hypogonadism,/map/concept,exact_match_no_context,4,0,0,0,1,0.2500,Male induced hypogonadism syndrome
+colorectal neoplasm,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Colorectal Neoplasm
+Leptogium siskiyouensis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Leptogium siskiyouensis
+decreased protein localization to post-lysosomal vacuole,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased protein localization to post-lysosomal vacuole
+Esophagus ulceration hemorrhage,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Esophagus ulceration hemorrhage
+Spaca5,/map/concept,synonym_as_query,,1,0,0,0,0.0000,M0RCC1_RAT
+SGS/3A,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,SGS/3A cell
+Cricopharyngeal achalasia,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cricopharyngeal achalasia
+inhalation anesthetic therapy,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,inhalation anesthetic therapy
+Losmapimod,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Losmapimod
+20p deletion,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Trisomy 20p syndrome
+Fusimotor Neuron,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,fusimotor neuron
+F42G8.10 (worm),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,F42G8.10 (worm)
+"Reynell developmental language scales, second revision",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"Reynell developmental language scales, second revision"
+Tricuspid valve endocarditis,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,Diseases of tricuspid valve
+Anti-GFAP antibody,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Recombinant Anti-GFAP antibody [EPR1034Y] - BSA and Azide free
+RPS14C (Arabidopsis thaliana),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,RPS14C (Arabidopsis thaliana)
+cholesteryl nonadecenoate,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,cholesteryl nonadecenoate
+mSTXBP5L/iso:3,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,syntaxin-binding protein 5-like isoform 2 (mouse)
+BtauMAPT[ap.C.T:EcollacZ],/map/concept,synonym_as_query,1,0,1,1,1,1.0000,EcollacZ[ap.C.Tag:MT(btau)]
+non-arteritic anterior ischemic optic neuropathy AE,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,drug-associated non-arteritic anterior ischemic optic neuropathy AE
+abnormally localised melanophore in optic stalk,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormally localised melanophore in optic stalk
+abnormal tRNA methylation,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,abnormal tRNA methylation
+"hypaxial region somite 2 quality, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"hypaxial region somite 2 quality, abnormal"
+UDP-glucose,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,UDP-D-glucose
+Tumour of peritoneum,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Tumour of peritoneum
+Jaundice NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Perinatal jaundice NOS
+aldohexose,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,aldohexose
+Grade 5 Duodenal fistula,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Grade 5 Duodenal fistula
+atypical autism,/map/search,exact_match_with_definition_context,,1,0,0,0,0.0000,autism spectrum disorder
+data item,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,data item
+Drops unextinguished matches,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Drops unextinguished matches
+Culius macrocephalus,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Macrocephalus dorannae
+Hyperlipoproteinemia Type 2,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Hyperlipoproteinemia Type II
+DHPase,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,Dhat syndrome
+EEG with localized low amplitude activity,/map/concept,exact_match_no_context,3,0,0,1,1,0.3333,EEG with generalized low amplitude activity
+Loflazepam,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Desalkylhalazepam
+chemotaxis protein CheW,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,chemotaxis protein CheW
+anterior nuclei of thalamus,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Anterior nuclear group of thalamus
+Prostarmon･E,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Proasellus meijersae
+Beibeng flying frog,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Rhacophorus verrucopus
+"retinal pigmented epithelium malformed, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"retinal pigmented epithelium malformed, abnormal"
+Apolipoprotein,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Apolipoprotein
+increased apoptosis in locus coeruleus,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased apoptosis in locus coeruleus
+combretanone A,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,combretanone A
+external nasal skin,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Skin of external nose
+Epgl1,/map/concept,synonym_as_query,,1,0,0,0,0.0000,EFNA1 gene
+Grade 3 paronychia AE,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Grade 3 paronychia AE
+Lentigo,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Lentigo [Disease/Finding]
+extrasystoles AE,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,extrasystoles AE
+Patient NHS number,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Patient NHS number
+Sulfapyridine SerPl-sCnc,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Sulfapyridine:SCnc:Pt:Ser/Plas:Qn
+Elaphomyces cervinus var. hassiacus,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Elaphomyces hassiacus
+2-naphthylation,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,2-naphthylation
+Gobius sphynx,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Amblygobius sphynx
+Fecal-oral transmission of infection,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Fecal-oral transmission of infection
+"endoplasmic reticulum chondrocyte position, abnormal",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"endoplasmic reticulum chondrocyte position, abnormal"
+Cardioactive drug level NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Cardioactive drug level NOS
+Mobility allowance report completed,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Mobility allowance report completed
+Immunoglobulin light chains.lambda.free,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Immunoglobulin light chains.free/Protein.total
+Lateral granuloma,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Foreign body granuloma of muscle
+rose spot,/map/concept,synonym_as_query,,1,0,0,0,0.0000,rose spot
+Cornelia de Lange-like syndrome,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Cornelia de Lange syndrome
+decreased occurrence of endochondral ossification,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased occurrence of endochondral ossification
+Terry-Thomas-Zeichen,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Terry-Thomas-Zeichen
+Celluflex DPB,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,LISOCABTAGENE MARALEUCEL 50000000T CELLS/VIAL
+Plantar digital nerve to fourth toe,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Plantar digital nerve to fourth toe
+Tampon retained in vagina,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Tampon retained in vagina
+Nuclear Ab Ql (Syn fld),/map/concept,synonym_as_query,5,0,0,0,1,0.2000,Nuclear Ab pattern:Imp:Pt:Synv fld:Nom:IF
+Visual processing,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,Generalised visual contraction
+positive regulation of fibroblast proliferation,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,positive regulation of fibroblast proliferation
+sulfur metabolism disease,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,sulfur metabolism disease
+Eucapercha,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Eucapercha
+amoniaco,/map/concept,synonym_as_query,,1,0,0,0,0.0000,AMMONIUM CHLORIDE/ANTIMONY POTASSIUM TARTRATE/IPECAC
+intersomitic artery morphology phenotype,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,intersomitic artery morphology phenotype
+duct of bulbourethral gland,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Duct of right bulbourethral gland
+occipital bossing,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,occipital bossing
+cytochrome b5,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,cytochrome b5 domain-containing protein 1
+decreased apoptosis in horizontal cell,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased apoptosis in horizontal cell
+dissociative amnesia,/map/search,exact_match_with_definition_context,,1,0,0,0,0.0000,dissociative disorder
+decreased cell wall thickness during vegetative growth,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased cell wall thickness during vegetative growth
+"chondrodysplasia punctata, X-linked dominant, X-linked dominant",/map/concept,synonym_as_query,,1,0,0,0,0.0000,X-linked dominant chondrodysplasia punctata 2 pathway
+Dissociative fugue,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Dissociative disorder
+neural cell adhesion molecule,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Neural cell adhesion molecule
+Perinatal hepatitis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"Perinatal hepatitis causing jaundice, unspecified"
+Oil-drop brown pigmentation of the corneal limbus,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Oil-drop brown pigmentation of the corneal limbus
+Workplace welfare facility,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Adequate workplace welfare facility
+uropathogenic E. coli,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Uropathogenic Escherichia coli
+Broad forehead,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Broad forehead
+has extra parts of type ovarian follicle,/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,has extra parts of type mature ovarian follicle
+"strand of pelage hair, decreased curvature phenotype",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"strand of pelage hair, decreased curvature phenotype"
+Transient arthropathy of first metatarsophalangeal joint,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Transient arthropathy of first metatarsophalangeal joint
+AVPV-MEPO-SFO Tbr1 Glut_1 Nms neuron (Mmus),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,AVPV-MEPO-SFO Tbr1 Glut_1 Nms neuron (Mmus)
+increased Purkinje cell size,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased Purkinje cell size
+Loss of resistance technique,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Loss of resistance technique
+Sialic Acid Binding Immunoglobulin-like Lectins,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Sialic Acid Binding Ig-like Lectin 1
+BSK6 (Arabidopsis thaliana),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,BSK6 (Arabidopsis thaliana)
+Extra prolactin secreting cell,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,increased number of prolactin secreting cell
+decreased number of anatomical entity in the kidney,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased number of anatomical entity in the kidney
+Wood splinter in chest,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Wood splinter in chest
+Cheyne Stokes Respiration,/map/search,alt_label_as_query_with_definition_context,3,0,0,1,1,0.3333,O/E - Cheyne - Stokes resp.
+Inter Sender Conflict,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Role Conflict
+porter,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,porter
+abnormally increased number of perichondrial cell,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormally increased number of perichondrial cell
+leukosialin O-glycosylated 77 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,leukosialin O-glycosylated 77 (human)
+pancreatic juice,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,pancreatic juice
+palsies,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,cranial nerve palsies
+Penis circumference,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Penis circumference
+gold injections,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Intramuscular gold therapy
+Afebrile seizure,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,afebrile seizure
+increased size of the striatum,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased size of the striatum
+skinny frontonasal prominence,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,frontonasal syndrome
+"ATP synthase F(0) complex subunit g, mitochondrial (human)",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"ATP synthase F(0) complex subunit g, mitochondrial (human)"
+Calcaneus contracture of the ankle,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Calcaneus contracture of the ankle
+Able to use speech appropriately,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Able to use speech appropriately
+EMI scan abnormal,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,EMI scan abnormal
+"Tuberculosis of limb bones, confirmed by bacterial culture",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"Tuberculosis of limb bones, confirmed by bacterial culture"
+heavy particle radiotherapy apparatus,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,heavy ion radiotherapy
+Minichromosome Maintenance Proteins,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Minichromosome Maintenance Proteins [Chemical/Ingredient]
+Abdominal Aura,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Abdominal Aura
+abnormal primordial germ cell migration,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,abnormal primordial germ cell migration
+mucosa of vagina,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,mucosa of vagina
+abnormally localised Rathke's pouch,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormally localised Rathke's pouch
+Graduated dilator,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Graduated dilator
+androsterone dehydrogenase (B-specific) activity,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,androsterone dehydrogenase (B-specific) activity
+negative regulation of excitatory post-synaptic membrane potential,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,negative regulation of excitatory postsynaptic membrane potential
+hemolymphoid system gland,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,hemolymphoid system gland
+Uterine Corpus Adenomyoma,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Uterine Corpus Adenomyoma
+hexamethyl pararosaniline chloride,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,Gentian Violet
+ginko,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,"ginkbilobin-2 protein, Ginkgo biloba"
+treatment,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,disorder treatment
+Fetal cardiac disorder,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,Fetal cardiac disorder
+Delusions of poverty [DI-PAD],/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Delusions of poverty:Find:Pt:^Patient:Ord:DI-PAD CGP V 1.4
+Chlamydial conjunctivitis,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Chlamydial conjunctivitis
+TSH receptor antibody,/map/search,alt_label_as_query_with_definition_context,4,0,0,0,1,0.2500,tsh receptor antibody
+Fistula anal,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,anal fistula
+level of EMI domain-containing protein 1 in blood serum,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,level of EMI domain-containing protein 1 in blood serum
+increased width of the epiphyseal plate in humerus,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased width of the epiphyseal plate in humerus
+Cesium:Mass Rate:24 hours:Urine:Quantitative,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Cesium:MRat:24H:Urine:Qn
+Parietal bone for left sigmoid sinus groove,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Groove of parietal bone for left sigmoid sinus
+oleoyl 1-ethanolamide,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,oleoyl ethanolamide
+patient of diabetes mellitus,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Insulin dependent diabetes mellitus &#x7C; Patient &#x7C; Miscellaneous tests
+decreased length of bone of free limb or fin,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased length of bone of free limb or fin
+"LORCASERIN HCL 20MG 24HR TAB,SA",/map/concept,synonym_as_query,1,0,1,1,1,1.0000,"LORCASERIN HCL 20MG 24HR TAB,SA [VA Product]"
+cichlid fish,/map/search,alt_label_as_query_with_definition_context,4,0,0,0,1,0.2500,cichlid family
+shortened telomeres during vegetative growth,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,shortened telomeres during vegetative growth
+Ward-Romano syndrome,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Romano-Ward Syndrome
+beta-estradiol 3-benzoate,/map/concept,synonym_as_query,5,0,0,0,1,0.2000,estradiol 3-benzoate 20 MG / testosterone propionate 200 MG Drug Implant
+H3K14 Acetylation,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,H3K14 Acetylation
+SARS-CoV-2-human S-GPAT3 physical association,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,SARS-CoV-2-human S-GPAT3 physical association
+Proto-Oncogene Tyrosine-Protein Kinase Receptor Ret,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Proto-Oncogene Tyrosine-Protein Kinase Receptor Ret
+"(11Z,14Z)-eicosadienoylcarnitine",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"(11Z,14Z)-eicosadienoylcarnitine"
+WASH complex subunit 1 (fruit fly),/map/search,exact_match_with_definition_context,4,0,0,0,1,0.2500,elongator complex protein 1 (fruit fly)
+atrioventricular region,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,atrioventricular region
+Anorectal stricture,/map/concept,exact_match_no_context,3,0,0,1,1,0.3333,anorectal disorder
+Cardiomyopathy,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cardiomyopathy pathway
+decreased cell population proliferation in dermal skeleton,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased cell population proliferation in dermal skeleton
+"chlorohexa-2,4-dienedioic acid",/map/concept,synonym_as_query,1,0,1,1,1,1.0000,monochloromuconic acid
+Progastrin releasing peptide increased,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Progastrin releasing peptide increased
+schistosomicide drug,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,schistosomicide drug
+polarization fluorescence,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,fluorescence polarization microscopy
+Atypical achromatopsia,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Atypical achromatopsy
+increased pyruvate kinase activity,/map/search,exact_match_with_definition_context,,1,0,0,0,0.0000,increased cyclin-dependent protein kinase activity
+"circadian sleep/wake cycle, sleep",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"circadian sleep/wake cycle, sleep"
+Rps4x,/map/concept,synonym_as_query,,1,0,0,0,0.0000,rps4x (zebrafish)
+DeWitt International Ltd,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,DeWitt International Ltd
+Rikospray spray,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Rikospray spray
+Flash burn,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,flash burn
+Carbon-Oxygen Ligases,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Carbon-Oxygen Ligases
+Rupture of uterus before onset of labour,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Rupture of uterus before onset of labour
+Multiple palmar creases,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Multiple palmar creases
+Aphis fabae,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Aphis fabae fabae
+PLEKHG4 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,PLEKHG4 (human)
+Cypselurus heterurus doederleini,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Cheilopogon heterurus
+"3a,8a-dihydrofuro(2,3-b)benzofuran",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"3a,8a-dihydrofuro(2,3-b)benzofuran"
+abscisic acid-aldehyde oxidase,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abscisic acid-aldehyde oxidase
+marine dolphins,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Common Dolphins
+"[(2R,3R)-2,3-dihydroxy-3-(5-oxo-2H-uran-3-yl)propyl] hexanoate",/map/concept,synonym_as_query,,1,0,0,0,0.0000,"(2R,3R,4S,5S,6R)-2-[(2R,3S,4R,5R,6R)-4,5-Dihydroxy-2-(hydroxymethyl)-6-[[(2R,3S,4R,5R)-4,5,6-trihydroxy-3-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]methoxy]oxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+S-lactoylglutathione,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,S-lactoylglutathione
+casein kinase II subunit alpha' isoform 1,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,casein kinase II subunit alpha' isoform 1
+Easy Neb nebuliser,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Easy Neb nebuliser
+Intrapartum eclampsia,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Eclampsia in labor
+Preoptic Area,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Preoptic Area
+Heatmap,/map/search,alt_label_as_query_with_definition_context,3,0,0,1,1,0.3333,Gene expression profile
+Absent antihelix,/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,absent anatomical conduit in the middle ear
+SARS-CoV-2-human rep-ASCC3 physical association,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,SARS-CoV-2-human rep-ASCC3 physical association
+Lateral tarsoconjunctival flap,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Lateral tarsoconjunctival flap
+majority die during P-stage,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,majority die during P-stage
+Vestibulocochlear Nerve,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Right vestibulocochlear nerve
+white matter of pontile tegmentum,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,white matter of pontine tegmentum
+increased calcium uptake by cardiac muscle,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased calcium uptake by cardiac muscle
+unprotected anal intercourse,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,unprotected anal intercourse
+Organ: adrenal gland,/map/concept,synonym_as_query,,1,0,0,0,0.0000,1_Rise in aldosterone synthesis in adrenal zona glomerulosa cells
+NSAID therapy,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,NSAID therapy
+abdominal hernia,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,anterior abdominal hernia
+Resistance to movement in device,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Resistance to movement in device
+Hypertane-50 tablet,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Hypertane-50 tablet
+hDMKN/iso:h11,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,dermokine isoform h11 (human)
+Lyme disease,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Lyme disease
+Melasma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Melasma
+abnormal pars distalis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormal pars distalis
+monovalent inorganic cations,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,monoatomic monocation
+MR Bone marrow W contrast IV,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Multisection^WO & W contrast IV:Find:Pt:XXX>Bone marrow:Doc:MR
+regulation of glucagon secretion,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,regulation of glucagon secretion
+lytic vacuole organization phenotype,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,lytic vacuole within protein storage vacuole
+obsolete ADP-ribosylation factor-like protein 17A (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,obsolete ADP-ribosylation factor-like protein 17A (human)
+Thickened nuchal skin fold,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Thickened nuchal skin fold
+cholesterol transport,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cholesterol transport pathway
+fruit jelly (carbonated),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,fruit jelly (carbonated)
+"mitochondrion short double cone cell normal volume, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"mitochondrion short double cone cell normal volume, abnormal"
+sodium methohexital,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,methohexital sodium
+ubiquitin-activating enzyme 5 (rat),/map/concept,synonym_as_query,1,0,1,1,1,1.0000,ubiquitin-like modifier-activating enzyme 5 (rat)
+Deep circumflex iliac artery flap,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Deep circumflex iliac artery flap
+amodiaquine,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,amodiaquine
+decreased chemically-elicited antinociception,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased chemically-elicited antinociception
+Cardiac pacemaker adjustment,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Cardiac pacemaker adjustment
+novel Ly9,/map/concept,synonym_as_query,,1,0,0,0,0.0000,F9 gene
+abnormal oligodendrocyte morphology,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormal oligodendrocyte morphology
+tibialis mass phenotype,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,tibialis anterior mass phenotype
+protein NOXP20,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,protein NOXP20
+Between 2 and 4 Foci Under 20x Magnification,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Between 2 and 4 Foci Under 20x Magnification
+Lower urinary tract symptoms,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Moderate lower urinary tract symptoms
+alpha-tubulin N-acetyltransferase 1 isoform 3 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,alpha-tubulin N-acetyltransferase 1 isoform 3 (human)
+Malignant neoplasm of oesophagus,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Malignant neoplasm of thoracic oesophagus
+striated coat of hair,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,striated coat of hair
+Premature coronary artery atherosclerosis,/map/concept,exact_match_no_context,4,0,0,0,1,0.2500,premature coronary artery disease
+4-chlorofentanyl,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,4-chlorofentanyl
+"cell lens shape, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"cell lens shape, abnormal"
+respiratory burst,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Respiratory Burst
+increased adenocarcinoma incidence,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,increased gastric adenocarcinoma incidence
+RNA-binding protein 6 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,RNA-binding protein 6 (human)
+Lacrimation abnormal,/map/concept,exact_match_no_context,4,0,0,0,1,0.2500,Disorder lacrimation
+Epo-immediate response gene protein FM22,/map/concept,synonym_as_query,,1,0,0,0,0.0000,immediate early response gene 2 protein (human)
+level of hyaluronidase-1 (human) in cerebrospinal fluid,/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,level of hyaluronan and proteoglycan link protein 1 (human) in cerebrospinal fluid
+Receptal,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,receptacle asymmetrical
+Sokeikakketsuto,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Sorbitol
+decreased number of pharyngeal mesoderm,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased number of pharyngeal mesoderm
+Hydrocoll thin film 10cmx10cm dressing,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Hydrocoll thin film 10cmx10cm dressing
+Rapid Dengue Test Kit (Shenyang),/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,Rapid Dengue Test Kit (Clongene)
+Stiff knee gait,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Stiff knee gait
+Pile easily reducible,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Pile easily reducible
+downregulation of intracellular transport,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,regulation of intracellular protein transport
+"dendrite efferent neuron decreased amount, abnormal",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"dendrite efferent neuron decreased amount, abnormal"
+positive regulation of cell cycle process,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,positive regulation of cell cycle process
+Adrenal disorder,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,adrenal gland disorder
+ARHGAP45 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ARHGAP45 (human)
+gamma-tubulin complex component 3,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,gamma-tubulin complex component 3
+Naevoid acquired lentiginosis,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Generalised acquired lentiginosis
+"Primary somatosensory area, upper limb, layer 1 (mba)",/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,"Primary somatosensory area, upper limb, layer 1"
+"nucleus skeletal muscle cell increased amount, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"nucleus skeletal muscle cell increased amount, abnormal"
+Escherichia coli cystitis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Escherichia coli cystitis
+red pepper,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Red Pepper
+C31H43N3O8,/map/concept,synonym_as_query,,1,0,0,0,0.0000,羟孕酮
+Kesik,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Celastrus kusanoi var. glaber
+KLN mixture,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,KLN mixture
+surinam cherry plant,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,surinam cherry plant
+Antibiogram,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,antibiogram
+patterned macular dystrophy 1,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,patterned macular dystrophy 1
+Eng-Strom syndrome,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Eng-Strom syndrome
+increased apoptosis in involuting marginal zone,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased apoptosis in involuting marginal zone
+3-benzoyl-4-hydroxylcoumarin,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,3-benzoyl-4-hydroxylcoumarin
+absent limb endochondral element in the manual digit 2,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,absent limb endochondral element in the manual digit 2
+"(2S)-6-amino-2-[[2-[[(2S)-2,6-diaminohexanoyl]amino]acetyl]amino]hexanoic acid",/map/concept,synonym_as_query,,1,0,0,0,0.0000,(2S)-6-Amino-2-(2-iminoethylamino)hexanoic Acid
+adequacy of perfusion,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,adequacy of perfusion
+sodium tungstate(VI),/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,sodium tungstate(VI)
+fatty acid ester,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,fatty acid ester
+monoalkyl-sn-glycero-3-phosphoethanolamine,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,monoalkyl-sn-glycero-3-phosphoethanolamine
+AIDS-associated hemorrhagic sarcoma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Aids-associated hemorrhagic sarcoma
+Triprolidine,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Triprolidine
+Epilepsy grand mal,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,epilepsy grand mal
+Intentional flurazepam overdose,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Intentional flurazepam overdose
+Murina ussuriensis,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Murina ussuriensis
+Renal failure chronic aggravated,/map/concept,exact_match_no_context,3,0,0,1,1,0.3333,chronic renal failure syndrome
+Orphenadrine citrate allergy,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Orphenadrine citrate allergy
+"GABAergic neuron hindbrain decreased distribution, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"GABAergic neuron hindbrain decreased distribution, abnormal"
+susceptibility to up-regulation in COVID-19 female patient,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,susceptibility to up-regulation in COVID-19 female patient
+Eversion of cervix,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,Ectropion (eversion) of cervix
+boron group molecular entities,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,boron group molecular entity
+ribonuclease 3 deaminated 1 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ribonuclease 3 deaminated 1 (human)
+YTH domain-containing family protein 3 isoform m2 (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,YTH domain-containing family protein 3 isoform m2 (mouse)
+(+)-2-(6-Methoxy-2-naphthyl)propionic acid,/map/concept,synonym_as_query,,1,0,0,0,0.0000,2-(6-methoxy-2-naphthalenyl)propanoic acid
+atrio-ventricular junction remodeling,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,atrial ventricular junction remodeling
+endoscopic nasobiliary drainage tube,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,endoscopic nasobiliary drainage
+Aluminium and its derivatives,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Aluminium and its derivatives
+Agaricus esculentus,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Strobilurus esculentus
+regulation of establishment of T cell polarity,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,regulation of establishment of T cell polarity
+biotin anion,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,biotin
+Closed dislocation of other site of shoulder,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Closed dislocation of other site of shoulder
+Skin of medial part of left third finger,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Skin of medial part of left middle finger
+"obsolete gastricsin, full-length form",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"obsolete gastricsin, full-length form"
+20mLbottle,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,20 ML fentanyl 0.05 MG/ML Injection
+Musculoskeletal and Connective Tissue Disorders,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Musculoskeletal and connective tissue disorders NEC
+susceptibility to X-linked autism 4,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,susceptibility to X-linked autism 1
+Dentinogenesis imperfecta - Shield's type I,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Dentinogenesis imperfecta - Shield's type I
+G alpha 12,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,RGS proteins that are GAPs for G alpha (i)
+Genetic prostate cancer,/map/search,alt_label_as_query_with_definition_context,4,0,0,0,1,0.2500,Familial prostate cancer
+decreased size of the cervical ganglion,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased size of the cervical ganglion
+Parasitic endophthalmitis NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Parasitic endophthalmitis NOS
+Plague,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Plague [Disease/Finding]
+Diaphragmatic paralysis,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Diaphragmatic paralysis
+Contusion of foot,/map/search,alt_label_as_query_with_definition_context,3,0,0,1,1,0.3333,Contusion of dorsum of foot
+Sympathetic imbalance,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Sympathetic Disorder
+cerebrospinal fluid serine level phenotype,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cerebrospinal fluid serine level phenotype
+aplasia or hypoplasia of adenohypophysis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,aplasia or hypoplasia of adenohypophysis
+Transtympanic electrocochleography,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Transtympanic electrocochleography
+clitoris morphology phenotype,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,clitoris morphology phenotype
+Ionized magnesium abnormal,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Ionized magnesium abnormal
+absent superior semicircular canal,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,absent superior semicircular canal
+"muscle cell differentiation decreased occurrence, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"muscle cell differentiation decreased occurrence, abnormal"
+Elevated circulating oleylcarnitine concentration,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Elevated circulating oleylcarnitine concentration
+hypertrophic cardiomyopathy caused by mutation in MYOZ2,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,hypertrophic cardiomyopathy 16
+phosphate metabolism protein 8 (yeast),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,phosphate metabolism protein 8 (yeast)
+Prolapsed umbilical cord,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Prolapsed umbilical cord
+microinsemination,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,"Fertility-enhancing drugs, Artificial insemination or Intrauterine insemination"
+Spirochaeta interrogans,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Leptospira interrogans
+Motor nerve conduction pattern,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Motor nerve conduction pattern
+"Inositol 1,3-bisphosphate",/map/concept,synonym_as_query,3,0,0,1,1,0.3333,"Inositol 1,3,4,5-tetraphosphate"
+"anterior region trunk bent, abnormal",/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,"anatomical axis trunk bent, abnormal"
+Thickening of the calvaria,/map/concept,synonym_as_query,,1,0,0,0,0.0000,increased thickness of the anatomical entity in cranium
+mMRPS34,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,small ribosomal subunit protein mS34 (mouse)
+adaptive cell therapy,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,cell therapy
+Cochliobolus miyabeanus,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Cochliobolus miyabeanus
+nicotinate,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,nicotinate
+Impaired cortisol response to insulin stimulation test,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Impaired cortisol response to insulin stimulation test
+large intestine involuntary muscle,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,large intestine smooth muscle
+N-(2-hydroxytricontanoyl)phytosphingosine,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,N-(2-hydroxytricontanoyl)phytosphingosine
+arrested cellular component assembly,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,arrested cellular component assembly
+beta-carotene,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,beta-carotene
+SARS-CoV-2-human ORF3a-WDR18 physical association,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,SARS-CoV-2-human ORF3a-WDR18 physical association
+slow vegetative cell population growth,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,slow vegetative cell population growth
+Allergic keratoconjunctivitis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Allergic keratoconjunctivitis
+Intentional thiopental sodium poisoning,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Intentional thiopental sodium poisoning
+electrocardiographically gated SPECT,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,Japanese-assessment of cardiac event and survival study by quantitative gated SPECT
+wound wash,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,AMERIGEL SALINE WOUND WASH
+abnormal nucleophagy,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormal nucleophagy
+absent pexophagy,/map/concept,synonym_as_query,,1,0,0,0,0.0000,pexophagy
+"epiphysis disrupted cellular response to UV, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"epiphysis disrupted cellular response to UV, abnormal"
+Innovace Melt,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Innovace Melt
+Basalioma of the outer ear,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Basalioma of the outer ear
+konnyaku,/map/concept,synonym_as_query,,1,0,0,0,0.0000,konnyaku
+Breast tenderness,/map/concept,exact_match_no_context,3,0,0,1,1,0.3333,Generalised tenderness of breast
+otub-1 (worm),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,otub-1 (worm)
+Trifluoperazine adverse reaction,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Trifluoperazine adverse reaction
+4-methoxy-2-nitroaniline,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,4-methoxy-2-nitroaniline
+physical assessment,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Physical therapy - individual minutes during assessment period
+VectorTest,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,VectorTest assay
+Aryepiglottis oedema,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Aryepiglottis oedema
+prefrontal area,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,prefrontal cortex
+VLA receptors,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,"Receptors, Very Late Antigen"
+Shifting abdominal dullness present,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Generalised abdominal dullness to percussion
+Factor V Leiden deficiency,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Factor V Leiden mutation
+thick hair follicle inner root sheath,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,thick hair follicle inner root sheath
+glutamyl aminopeptidase,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,glutamyl aminopeptidase
+Prednisolone succinate ester sodium,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,prednisolone sodium succinate
+SARS-CoV-2-human ORF7b-MCTS1 physical association,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,SARS-CoV-2-human ORF7b-MCTS1 physical association
+Lymphoid hyperplasia,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Lymphoid hyperplasia
+Anise seed,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,anise seed (dried)
+btf3l4 (zebrafish),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,btf3l4 (zebrafish)
+nuclear periphery,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased protein localization to nuclear periphery
+N-(4-chlorobenzyl)-2-(1H-imidazol-1-ylmethyl)benzenamine,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,N-(4-chlorobenzyl)-2-(1H-imidazol-1-ylmethyl)benzenamine
+Hyperglycemia,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Hyperglycemia [Disease/Finding]
+androgen antagonist,/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,androgen suppressant hormone agent therapy
+Osmotic demyelination syndrome,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,osmotic demyelination syndrome
+InChI=1S/CO/c1-2,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,CO
+absent cochlear inner hair cells,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,absent anatomical entity in the cochlear inner hair cell
+Tor3a,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,Tor3a (rat)
+TMEM60 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,TMEM60 (human)
+Acupuncture points,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Spinal acupuncture points
+ovarian large-cell neuroendocrine carcinoma,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ovarian large-cell neuroendocrine carcinoma
+"5,6-dihydroxyindole-2-carboxylic acid oxidase",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"5,6-dihydroxyindole-2-carboxylic acid oxidase"
+diacylglycerol 24:0,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,diacylglycerol 24:0
+partial lipodystrophy with Rieger anomaly and short stature,/map/concept,synonym_as_query,,1,0,0,0,0.0000,"Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus"
+beta-galactosidase 3 (Arabidopsis thaliana),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,beta-galactosidase 3 (Arabidopsis thaliana)
+Evaporated milk,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,evaporated milk
+abnormal dermal bone,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormal dermal bone
+2-Methyl-1-buten-3-one,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,3-Methyl-3-buten-2-one
+NodeType: Pathway,/map/concept,synonym_as_query,,1,0,0,0,0.0000,mTOR signaling
+flicker sensation,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,flicker (vision)
+Myocardial steatosis,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,myocardial disease
+Cystic lymphangioma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cystic lymphangioma
+Vulvar High Grade Squamous Intraepithelial Lesion,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,High Grade Vulvar Squamous Intraepithelial Lesion
+activity (of a radionuclide) unit,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,activity (of a radionuclide) unit
+developmental process,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,developmental process
+specifically dependent continuant,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,specifically dependent continuant
+Ophiostoma arduennense,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Ophiostoma arduennense
+decreased size of the pseudopodium,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased size of the pseudopodium
+yVMA11,/map/concept,synonym_as_query,,1,0,0,0,0.0000,twy[GFP]
+Simulium (Gomphostilbia) huaimorense,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Simulium huaimorense
+tert-butyloxycarbonyl(alloisoleucylisoleucyl)3 methyl ester,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,tert-butyloxycarbonyl(alloisoleucylisoleucyl)3 methyl ester
+oxytocin receptor phosphorylated 1 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,oxytocin receptor phosphorylated 1 (human)
+PRPF31-related retinopathy,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,PRPF31-related retinopathy
+alcohol consumption,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Alcohol consumption NOS
+Fasciculations,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Fasciculations
+Vitamin K,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Vitamin K
+Observation of thyroid function,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Observation of thyroid function
+Cicindela (Cicindelidia) guerrerensis,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Cicindela guerrerensis
+Permanent brachytherapy,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Brachytherapy
+PE(37:5) zwitterion,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,phosphatidylethanolamine 37:5 zwitterion
+Columba novae seelandiae,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Columba livia x Columba guinea
+neck (volume) zone of skin,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Zone of skin of neck
+Prostarmon F,/map/search,alt_label_as_query_with_definition_context,4,0,0,0,1,0.2500,Fluorine F 18 Fluoro Furanyl Norprogesterone
+zinc finger protein LEE1 (yeast),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,zinc finger protein LEE1 (yeast)
+disease or disorder of cerebellum,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,cerebellar disorder
+Second stage bilateral orchidopexy,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Second stage bilateral orchidopexy
+Neoplasm of the pituitary gland,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Neoplasm of the pituitary gland
+"pectoral fin fold decreased length, abnormal",/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,"fin fold pectoral fin bud decreased process quality embryonic pectoral fin morphogenesis, abnormal"
+MEP1A,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Proprotein Convertase 1
+ubiquitin-conjugating enzyme E2 B isoform 1 (rat),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ubiquitin-conjugating enzyme E2 B isoform 1 (rat)
+Methylethylolamine,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,N-methylethanolamine
+2-Oxo-3-methylpentanoate,/map/concept,synonym_as_query,,1,0,0,0,0.0000,2-oxopentanoate
+Levomethamphetamine/Amphetamines.total in Urine,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Levomethamphetamine/Amphetamines.total &#x7C; Urine &#x7C; Drug toxicology
+up-regulation of protein phosphatase 2 activity,/map/concept,synonym_as_query,,1,0,0,0,0.0000,regulation of protein phosphatase type 2B activity
+central nervous system germ cell tumour of adults,/map/concept,synonym_as_query,,1,0,0,0,0.0000,germ cell tumor of adult central nervous system
+Deprivation of water,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Deprivation of water
+Radiation proctitis,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Radiation related tooth disorder
+Observations relating to special educational needs,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Observations relating to special educational needs
+"Cardiac Complexes, Premature",/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Atrial Premature Complexes [Disease/Finding]
+Artione,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Ligamentum plantare Articulation cuneocuboidea
+Thick skin,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,thick skin
+Central polydactyly,/map/concept,synonym_as_query,,1,0,0,0,0.0000,central polydactyly of fingers
+fractured metatarsal bone of digit 5,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Fractured metatarsal bone of digit 5
+fertilizer application,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,reduction of fertilizer application
+Algiatry,/map/concept,synonym_as_query,,1,0,0,0,0.0000,management of cancer pain
+Grade 1 Intraoperative urinary injury,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Grade 1 Intraoperative urinary injury
+Androgen and anabolic poisoning,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Androgen and anabolic poisoning
+GMP binding,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,GTP-dependent protein binding
+Dactyloa princeps,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Anolis princeps
+"Hypoglycemia, unspecified",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"Hypoglycemia, unspecified"
+Salmo namaycush,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Salvelinus namaycush
+diakinesis region organization variant,/map/concept,exact_match_no_context,3,0,0,1,1,0.3333,diakinesis progression during oogenesis variant
+HYPOTHALMIC/PITUITARY,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,hypothalmic/pituitary
+water ingestion,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,water ingestion
+benign cerebral neoplasm,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Benign Cerebral Neoplasm
+blue-breasted quail,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Japanese quail
+cyclohex-2-enone,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,cyclohex-2-enone
+bending of arm bone,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,bending of arm bone
+location of eyeball of camera-type eye phenotype,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,location of eyeball of camera-type eye phenotype
+Sergentomyia antennata f. sintoni,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Sergentomyia sintoni
+increased pain threshold,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Increased pain threshold
+Complement factor NOS high,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Complement factor NOS high
+Mastectomy of breast cancer,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Breast cancer operation
+planula larva,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,planula
+Sarcomatous malignant mesothelioma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Sarcomatous malignant mesothelioma
+decreased somatotroph cell size,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased somatotroph cell size
+gamma-aminobutyric acid zwitterion,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,gamma-aminobutyric acid zwitterion
+Ocular Adaptation,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,"Adaptation, Ocular"
+Chi-square test,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Chi-square test
+Accidental trifluoperazine overdose,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Accidental trifluoperazine overdose
+bulliform cell,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,bulliform cell
+Labetalol,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Labetalol
+apoptosis-mediating receptor TRAMP,/map/concept,synonym_as_query,,1,0,0,0,0.0000,decoy death receptor activity
+Thoracic Intraspinal Meningioma,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Thoracic Intraspinal Meningioma
+abnormal morphology of m. rectus anterior primordium,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,abnormal m. rectus anterior primordium morphology
+Hepatopulmonary Syndrome,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Hepatopulmonary Syndrome [Disease/Finding]
+normal growth on papuamide B during mating,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,normal growth on papuamide B during mating
+landform,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,landform
+Movements disturbance NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Movements disturbance NOS
+cingulin deaminated 1 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,cingulin deaminated 1 (human)
+ACP-3 (Arabidopsis thaliana),/map/concept,synonym_as_query,1,0,1,1,1,1.0000,"acyl carrier protein 3, chloroplastic (Arabidopsis thaliana)"
+Nursing attributes T - Z,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Nursing attributes T - Z
+Subcontinents,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Subcontinents
+Pompe disease,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Pompe disease
+Marjorie's hardyhead,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Cirrhilabrus marjorie
+ND-23 (fruit fly),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ND-23 (fruit fly)
+2-[[(2S)-2-hydroxypropanoyl]amino]-3-methylbutanoic acid,/map/concept,synonym_as_query,,1,0,0,0,0.0000,"(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-Acetamido-4-carboxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-hydroxybutanoyl]amino]-4-methylpentanoyl]amino]-5-amino-5-oxopentanoic acid"
+pre-mRNA-processing factor 19 isoform 1 (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,pre-mRNA-processing factor 19 isoform 1 (mouse)
+Pacific cod,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,pacific cod
+Short metacarpals with rounded proximal ends,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Short metacarpals with rounded proximal ends
+Cortisol 10.5 Hr post Unsp challenge [Moles/Vol],/map/concept,synonym_as_query,3,0,0,1,1,0.3333,Cortisol^10H post XXX challenge:SCnc:Pt:Ser/Plas:Qn
+Tc99m hepatic perfusion index study,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Tc99m hepatic perfusion index study
+Frisium,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,frisium
+blood velocity,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Blood flow velocity E wave/Annulus velocity E wave
+ATP7A spinal muscular atrophy,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,X-linked distal spinal muscular atrophy type 3
+ubiquitin fusion degradation protein 1 homolog (fruit fly),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ubiquitin fusion degradation protein 1 homolog (fruit fly)
+level of peflin in blood serum,/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,level of protein pelota in blood serum
+"lymph vasculature trunk aplastic, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"lymph vasculature trunk aplastic, abnormal"
+Abnormality of forces of labor,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Abnormality of forces of labor
+Sincortex,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Mesocortex
+"M band muscle cell morphology, abnormal",/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,"M band skeletal muscle cell morphology, abnormal"
+Fasciitis NOS,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Fasciitis [Disease/Finding]
+acetate-free biofiltration,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,acetate free biofiltration
+Positive Murphy sign,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Positive Murphy sign
+abcG24 (Dictyostelium discoideum),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,abcG24 (Dictyostelium discoideum)
+Oxygen-induced pulmonary oedema,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Drug-induced acute pulmonary oedema
+osmolarity,/map/concept,synonym_as_query,,1,0,0,0,0.0000,increased osmolarity
+Drugs used for the treatment of acute migraine,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Drugs used for the treatment of acute migraine
+decreased size of the nasal cavity,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,decreased size of the anatomical cavity
+Neutrophil membrane Ab [Presence] in Serum or Plasma by Agglutination,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Neutrophil membrane Ab:PrThr:Pt:Ser/Plas:Ord:Aggl
+decreased cell population proliferation in caudal vein,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased cell population proliferation in caudal vein
+neoprene,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,poly(chloroprene) polymer
+Immunoglobulin light chains.kappa.free Ql (U),/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Immunoglobulin light chains.kappa.free:PrThr:Pt:Urine:Ord
+Focal seizure,/map/concept,synonym_as_query,,1,0,0,0,0.0000,focal seizure
+Stammering,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,stammering
+upregulation of nodal cilium formation,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,positive regulation of motile cilium assembly
+small pots/day,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,small pots/day
+malformed acellular anatomical structure,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,malformed acellular anatomical structure
+Discoid hand eczema,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Discoid hand eczema
+abnormal retinal progenitor cell region,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormal retinal progenitor cell region
+Neuropeptides,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Neuropeptides
+Porphyria NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Porphyria NOS
+protein_coding,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,protein_coding
+decreased keratinocyte proliferation,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased keratinocyte proliferation
+Management science,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Terms related to Management science
+Reduced sperm motility,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Reduced sperm motility
+regulation of neural crest cell differentiation,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,positive regulation of neural crest cell differentiation
+collagen alpha-1(XX) chain (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,collagen alpha-1(XX) chain (human)
+Laceration of omentum,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Laceration of omentum
+MEGF9/OXT protein level ratio in blood,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,MEGF9/OXT protein level ratio in blood
+Respiratory fume inhalation disorder NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Respiratory fume inhalation disorder NOS
+L-histidine anion,/map/concept,synonym_as_query,,1,0,0,0,0.0000,L-Histidine trimethylbetaine
+intermediate mesoderm,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,intermediate mesoderm
+Eichleriella crocata,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Eichleriella crocata
+Corticotrophin abnormal NOS,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Corticotrophin abnormal NOS
+Scyb2,/map/concept,synonym_as_query,,1,0,0,0,0.0000,"Ccnb3 protein, mouse"
+Partial laminectomy,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Partial laminectomy
+EPINEPHrine [Moles/volume] in Plasma --3rd specimen post XXX challenge,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,EPINEPHrine^3rd specimen post XXX challenge:SCnc:Pt:Plas:Qn
+Massively thickened long bone cortices,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Massively thickened long bone cortices
+abnormal stria vascularis morphology,/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,stria vascularis degeneration
+N-cyclohexyl-N'-(1-pyrenyl)carbodiimide,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,N-cyclohexyl-N'-(1-pyrenyl)carbodiimide
+Transient unilateral blurring of vision,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Transient unilateral blurring of vision
+increased size of the liver,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased size of the liver
+January,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,January
+ephrin type-A receptor 3 (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ephrin type-A receptor 3 (mouse)
+digestive system,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,digestive system
+Posterior basal segment of left lower lobe,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Posterior basal segment of left lower lobe
+measurement unit label,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,measurement unit label
+Zp3r,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,zona pellucida sperm-binding protein 3 receptor
+abnormal renal/urinary system morphology,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,abnormal renal/urinary system morphology
+Familial hemophagocytic lymphohistiocytosis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,familial hemophagocytic lymphohistiocytosis
+micromere,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,micromere
+mutation frequency,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,mutation frequency
+L-iduronic acid,/map/concept,synonym_as_query,,1,0,0,0,0.0000,L-iduronic acid
+Injury to liver with open wound into cavity,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Injury to liver with open wound into cavity
+blepharospasm-oromandibular dystonia syndrome,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,blepharospasm-oromandibular dystonia syndrome
+hypoplastic palmar skin crease,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,palmar skin crease hypoplasia
+decreased number of intestinal bulb,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased number of intestinal bulb
+Broussonetia papyrifera var.japonica,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Broussonetia papyrifera
+diencephalon dura mater,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,diencephalon dura mater
+decreased glutamate import during vegetative growth,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased glutamate import during vegetative growth
+DNA dC->dU-editing enzyme APOBEC-3H isoform h4 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,DNA dC->dU-editing enzyme APOBEC-3H isoform h4 (human)
+tearing,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Tearing Pain
+cervical polyp,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,cervical polyp
+maternally-inherited Leigh syndrome,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,maternally-inherited Leigh syndrome
+Flexor digitorum tendon of toe,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,Flexor digitorum tendon of fourth toe
+whiting fillet (raw),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,whiting fillet (raw)
+"cell EVL decreased size, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"cell EVL decreased size, abnormal"
+GTPBP10 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,GTPBP10 (human)
+level of meprin A subunit alpha in blood serum,/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,level of translocon-associated protein subunit alpha in blood serum
+TSC10,/map/concept,synonym_as_query,,1,0,0,0,0.0000,TS10 extraembryonic component cavities
+Injection site joint discomfort,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,injection site joint discomfort AE
+ppa2 (zebrafish),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ppa2 (zebrafish)
+3-sulfopropanoic acid,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,3-sulfopropanoic acid
+Dicty-top3,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,"uncharacterized protein, DDB_G0281183 translation product (Dictyostelium discoideum)"
+abnormally localised m. levator mandibulae longus internus,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormally localised m. levator mandibulae longus internus
+Balloon dilatation catheter,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Balloon dilatation catheter
+positive regulation of protein homotetramerization,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,positive regulation of protein homotetramerization
+osmotic avoidance variant,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,osmotic avoidance variant
+"Targee, Bolivia (Plurinational State of) (Sheep)",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"Targee, Bolivia (Plurinational State of) (Sheep)"
+Alternating hemiplegia,/map/concept,synonym_as_query,,1,0,0,0,0.0000,alternating hemiplegia
+MPN-MPO-PVpo Hmx2 Glut_2 Npsr1 neuron (Mmus),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,MPN-MPO-PVpo Hmx2 Glut_2 Npsr1 neuron (Mmus)
+hCORO7/Me:3,/map/concept,synonym_as_query,,1,0,0,0,0.0000,U-67590A
+absent vascular plexus,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,absent vascular plexus
+Accidental cholera vaccine poisoning,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Accidental cholera vaccine poisoning
+Cardiomyocyte mitochondrial proliferation,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Cardiomyocyte mitochondrial proliferation
+bronchus,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,bronchus
+ECG signs of myocardial ischemia,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,ECG signs of myocardial ischemia
+GLYCOSURIA,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Glycosuria [Disease/Finding]
+decreased reflex in pelvic complex,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased reflex in pelvic complex
+Loss of skin markings,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Loss of skin markings
+presumptive neural plate,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,presumptive neural plate
+"Closed fracture of tibia and fibula, proximal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"Closed fracture of tibia and fibula, proximal"
+sinus histiocytosis and massive lymphadenopathy,/map/concept,synonym_as_query,,1,0,0,0,0.0000,sinus histiocytosis with massive lymphadenopathy
+Peritoneal ovum and sperm transfer,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Peritoneal ovum and sperm transfer
+Rap,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,rap GTP-Binding Proteins
+Procedural haemorrhage,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Post procedural haemorrhage
+yakushinamide B,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,yakushinamide B
+quaternary ammonium ion,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,quaternary ammonium ion
+3-methyl-1-(p-fluorophenyl)pyrazole-5-thiol,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,3-methyl-1-(p-fluorophenyl)pyrazole-5-thiol
+Thumb joint - synovial swelling,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Thumb joint - synovial swelling
+neural tissue,/map/concept,synonym_as_query,,1,0,0,0,0.0000,neural tissue
+SH3 domain-binding protein 5 homolog (fruit fly),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,SH3 domain-binding protein 5 homolog (fruit fly)
+Acetabular spurs,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Acetabular spurs
+nuclear factor erythroid 2-related factor 2,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,nuclear factor erythroid 2-related factor 2 (human)
+Trigeminal nerve dysfunction,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,Trigeminal nerve disorder
+Atrial rupture,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Heart Rupture [Disease/Finding]
+paravertebral ganglion,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,paravertebral ganglion
+desirudinum,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,desirudin
+Terraced bungalow,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Terraced bungalow
+antidote to paracetamol poisoning,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,antidote to paracetamol poisoning
+Porteridia,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Porterella carnosula
+DEP domain-containing protein 1A (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,DEP domain-containing protein 1A (mouse)
+Grade 3 keratitis AE,/map/search,exact_match_with_definition_context,5,0,0,0,1,0.2000,Grade 3 scleral disorder AE
+Upper labial sextant of dental arch,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Upper anterior segment of dental arch
+"1,3-thiazolium cation",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"1,3-thiazolium cation"
+Precancerous condition,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,precancerous condition
+Carney-Stratakis dyad of paraganglioma and gastric stromal sarcoma,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Carney-Stratakis syndrome
+3-oxo fatty acid,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,3-oxo fatty acid
+aerial tuber cortex,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,aerial tuber cortex
+job training,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,Functional training programs: Job coaching
+Disinhibition,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Disinhibition
+"animal-vegetal axis oocyte polarity, abnormal",/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"animal-vegetal axis oocyte polarity, abnormal"
+increased susceptibility to noise-induced hearing loss,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased susceptibility to noise-induced hearing loss
+Epigastric hernia,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Obstructed epigastric hernia
+regional part of nervous system,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,regional part of nervous system
+renal ischemia,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,renal ischemia
+CD19-positive B-lymphocyte count,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,CD19-positive B-lymphocyte count
+trunk atrophy,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,trunk atrophy
+Node stage N1biv,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Node stage N1biv
+"1,2-diethyl-1,3-bis(4-methoxyphenyl)-1-propene",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"1,2-diethyl-1,3-bis(4-methoxyphenyl)-1-propene"
+Ex-husband,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Ex-husband
+Semicircular duct structure,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Semicircular duct structure
+Glycogen accumulation in muscle fiber lysosomes,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Glycogen accumulation in muscle fiber lysosomes
+cerebral sphingolipidosis,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,"Ceroid-lipofuscinosis, neuronal 3, juvenile (Batten, Spielmeyer-Vogt disease)"
+Biliary cystic tumor,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,Congenital cystic liver disease
+Child-Turcotte-Pugh class C,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,Child-Pugh-Turcotte score abnormal
+adult type autosomal dominant polycystic kidney disease,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Autosomal dominant polycystic kidney disease
+normal transposition,/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,normal gene conversion
+decreased peroxidase activity,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased peroxidase activity
+Corticosteroid-induced glaucoma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Corticosteroid-induced glaucoma
+integrin alpha-2 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,integrin alpha-2 (human)
+African savannah elephant,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,african savannah elephant
+protein CLASP-1 (worm),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,protein CLASP-1 (worm)
+pattern antibody staining variant,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,pattern antibody staining variant
+decreased cell cycle,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased cell cycle
+Maladera incola,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Maladera himalayica incola
+reproduction of a single-celled organism,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,reproduction of a single-celled organism
+Short wave diathermy to wrist,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Short wave diathermy to wrist
+"neural plate apoptotic, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"neural plate apoptotic, abnormal"
+HDGF,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,HDGF (human)
+Chills,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Fever Chills
+nasal ciliary artery,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,nasal ciliary artery
+EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor
+Neurodegeneration,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Neurodegeneration
+Cachonina niei,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Heterocapsa niei
+Liquifilm Tears,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Liquifilm Tears
+Faecal occult blood screen,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Bowel cancer screening programme: faecal occult blood result
+"urohyal quality, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"urohyal quality, abnormal"
+irides,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Blue irides
+rPAK2/iso:1,/map/concept,synonym_as_query,,1,0,0,0,0.0000,obsolete Rho-associated protein kinase 2 isoform 2 unmodified form
+chondromatous tumour,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Benign osseous and chondromatous tumour morphology
+nasomaxillary suture,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,nasomaxillary suture
+Schizotypal personality disorder,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Schizotypal Personality Disorder
+Biochemical bond component fixation,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Biochemical bond component fixation
+Acontias punctatus,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Afrotyphlops punctatus
+Out of hours consultation at surgery,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,GP out of hours service notified of cancer care plan
+fibronectin N-glycosylated 32 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,fibronectin N-glycosylated 32 (human)
+Scybalousia scybalohippi,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Candidatus Scybalousia scybalohippi
+Nitrogen oxides causing toxic effect,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Phosgene causing toxic effect
+"3',5'-cAMP-mediated signalling",/map/concept,synonym_as_query,4,0,0,0,1,0.2500,"G-protein signaling, coupled to cAMP nucleotide second messenger"
+Phoma macrostoma var. incolorata,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Didymella macrostoma
+"Lingula (I), molecular layer (mba)",/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,"Lingula (I), molecular layer"
+first generation antipsychotic,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,first generation antipsychotic
+Salicylic acid product,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Salicylic acid product
+GGC-RAB11A,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,"Ras-related protein Rab-25, mature prenylated 1 (human)"
+Mandibular retrognathia,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Retrognathia [Disease/Finding]
+brachial plexus neuritis,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,brachial plexus neuritis
+Hematologic disorder in children,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Neonatal hematologic disorder
+artificial neuron,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,artificial neuron model
+Human leucocyte antigen DRB5 genotype,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Human leucocyte antigen DRB5 genotype
+Elevated urinary 3-hydroxyisobutyric acid level,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Elevated urinary 3-hydroxyisobutyric acid level
+"notochord formation process quality, abnormal",/map/concept,exact_match_no_context,3,0,0,1,1,0.3333,"notochord morphogenesis process quality, abnormal"
+biological replicate role,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,biological replicate role
+gigaelectronvolt per nucleon,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,gigaelectronvolt per nucleon
+Bancroftian filarial fever,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Bancroftian filarial fever
+Plekhs1 (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Plekhs1 (mouse)
+Chlorobium limicola thiosulfatophilum,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Chlorobium limicola
+High complex carbohydrate diet,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,High complex carbohydrate diet
+Perca helvetica,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Perca fluviatilis
+Spatial Orientation,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Spatial Orientation
+Small bowel anisakiasis,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,Anisakiasis [Disease/Finding]
+acyl-CoA,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,acyl-CoA
+Celledoni,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Leptospira interrogans sv Celledoni Ab
+increased microtubule-based processes phenotype,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,increased microtubule-based processes
+function,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,function
+"neuromast dispersed, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"neuromast dispersed, abnormal"
+reduced DN2 immature T cell number,/map/concept,synonym_as_query,,1,0,0,0,0.0000,decreased T cell number
+absent jugum limitans,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,absent jugum limitans
+Halobasidium xiangyangense,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Halobasidium xiangyangense
+GCSAML (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,GCSAML (human)
+Polyomavirus enhancer activator-3,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Polyomavirus
+Pina,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,35573
+decreased size of the postcranial axial skeleton,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,decreased size of the postcranial axial skeleton
+2'-deoxycytosine 5'-monophosphate(2-),/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,2'-deoxycytosine 5'-monophosphate(2-)
+Goserelin,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Goserelin [Chemical/Ingredient]
+"oligodendrocyte decreased occurrence MAPK cascade, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"oligodendrocyte decreased occurrence MAPK cascade, abnormal"
+9-(4-hydroxy-3-(hydroxymethyl)butyl)guanine,/map/concept,synonym_as_query,,1,0,0,0,0.0000,guanine
+decreased chromatin binding at centromeric outer repeat region,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,decreased protein localization to chromatin at centromere outer repeat
+atlas region,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,parcellation region
+"Rohon-Beard neuron increased life span, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"Rohon-Beard neuron increased life span, abnormal"
+cow,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,milking cow
+up-regulation of DNA metabolic process,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,positive regulation of DNA metabolic process
+(-)-chimonanthine,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,(-)-chimonanthine
+financial manager,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,financial manager
+Parasitic fluke,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Parasitic fluke
+Carica pubescens,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,Attulus pubescens
+styrene maleic acid neocarzinostatin,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Neocarzinostatin chromophore
+Methionine sulfoxide (24H U) [Moles/Vol],/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Methionine sulfoxide:SCnc:24H:Urine:Qn
+Kinky hair disease,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,hair disease
+spartioidine,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,spartioidine
+adenine biosynthetic process,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,adenine biosynthetic process
+Stork bite,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,stork bite
+"(7S,13aS)-7-methyl-5,8,13,13a-tetrahydro-6H-isoquino[3,2-a]isoquinolinium",/map/concept,synonym_as_query,2,0,0,1,1,0.5000,(S)-cis-N-methylcanadine
+blood type positive,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,blood type a positive
+medium term prognosis,/map/search,alt_label_as_query_with_definition_context,2,0,0,1,1,0.5000,long term prognosis
+Diabetes mellitus reactivated,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Diabetes mellitus reactivated
+abnormal development of left omphalomesenteric vein,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,abnormal development of left omphalomesenteric vein
+lemon and lime carbonated beverage (artificially sweetened),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,lemon and lime carbonated beverage (artificially sweetened)
+open laceration,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,open laceration
+HHV-3,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,Human herpesvirus 3
+head blood vessel,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,head blood vessel
+Course of illness,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Clinical Course of Disease
+Sclerosing PEComa,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Sclerosing PEComa
+2-Chlorotoluene,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,2-Chlorotoluene
+Thera variata mugo,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,Thera variata subtaurica
+growth hormone variant isoform h1 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,growth hormone variant isoform h1 (human)
+wolffian reproductive system tumor,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,wolffian reproductive system tumor
+fly-PTPRC,/map/concept,synonym_as_query,,1,0,0,0,0.0000,CG7509 protein (fruit fly)
+Nodular melanoma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Nodular melanoma
+Difficulty of decannulation,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Decannulation difficulty
+cannabinoid receptor agonist,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cannabinoid receptor agonist
+xylulose kinase (rat),/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,Wee1-like protein kinase (rat)
+Increased active range of shoulder external rotation,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Increased active range of shoulder external rotation
+decreased pontocerebellar fibers cell number,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased pontocerebellar fibers cell number
+increased size of the distal mesenchyme,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,increased size of the anatomical entity in distal phalanx of manus
+Oral lichenoid reaction,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Drug-induced oral lichenoid reaction
+Barcelona nut,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Barcelona nut
+ribosomal protein S6 kinase alpha-5 (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,ribosomal protein S6 kinase alpha-5 (human)
+Culex thoracicus,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Culex pipiens
+cleft lip and alveolus,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,cleft lip and alveolus
+respiratory system smooth muscle,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,respiratory system smooth muscle
+HIGM1,/map/concept,synonym_as_query,5,0,0,0,1,0.2000,"CD40 ligand (TNF superfamily, member 5, hyper-IgM syndrome)"
+PHD finger protein 21A (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,PHD finger protein 21A (mouse)
+lymphadenectomy,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Diagnostic Lymphadenectomy
+arillode (narrow),/map/concept,synonym_as_query,,1,0,0,0,0.0000,arillode
+Recognition memory test,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Recognition memory test
+Cervical cytology,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cervical cytology
+Spinal meningioma malignant,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Malignant spinal meningioma
+elongation factor 1-delta (human),/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,elongation factor 1-delta isoform 1 (human)
+"posterior crista normal position, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"posterior crista normal position, abnormal"
+InChI=1S/Na/q+1,/map/concept,synonym_as_query,4,0,0,0,1,0.2500,H(+)
+cardiovascular system morphology phenotype,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,cardiovascular system morphology phenotype
+decreased size of the branchial arch skeleton 2,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased size of the branchial arch skeleton 2
+"neoplasm retina present, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"neoplasm retina present, abnormal"
+Shoulder replacement,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,artificial shoulder joint replacement
+serous cystadenocarcinoma,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Serous Cystadenocarcinoma
+Processing of Proglucagon to Glucagon-like Peptide-1,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Processing of Proglucagon to Glucagon-like Peptide-1
+decreased qualitatively maintenance of location in cell,/map/concept,exact_match_no_context,,1,0,0,0,0.0000,decreased qualitatively maintenance of protein location in cell
+"jaw row breeding tubercle quality, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"jaw row breeding tubercle quality, abnormal"
+Signaling by Robo receptor,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Signaling by Robo receptor
+Undergarment,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Undergarment
+isobutyrate,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,isobutyrate
+Availability of help from lay carer,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Availability of help from lay carer
+AML with biallelic mutations of CEBPA,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Acute Myeloid Leukemia with Biallelic CEBPA Mutation
+embryonal adenosarcoma,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,"Carcinoma, Embryonal"
+bundle of His,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,bundle of his
+midbrain neural tube,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,midbrain neural tube
+absent sensory perception of sound,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,absent sensory perception of sound
+Lycaena pactolus,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Nacaduba pactolus
+Tanytarsus agrayloides,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Lauterborniella agrayloides
+Nitroglycerine,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Nitroglycerine therapy
+hereditary mucoepithelial dysplasia,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,hereditary mucoepithelial dysplasia
+Wilson disease,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Wilson disease
+Phenylketonuria pasta,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Phenylketonuria pasta
+hDCAF8,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,DDB1- and CUL4-associated factor 8 (human)
+increased length of the atrioventricular canal,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased length of the atrioventricular canal
+Photocontact dermatitis,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Photocontact dermatitis [berloque dermatitis]
+MICAL2 (human),/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,MICAL-like protein 2 (human)
+AIDS related lymphoma,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,AIDS related lymphoma
+Neoplasm CNS,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Neoplasm CNS
+Focal Cortical Dysplasia,/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,Cortical dysplasia - focal epilepsy syndrome
+Indium colloid,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Indium colloid
+Body mass index,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,body mass index
+nucleobase biosynthetic process,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,nucleobase biosynthetic process
+ELISPOT,/map/concept,synonym_as_query,,1,0,0,0,0.0000,ELISPOT assay
+antagoniste,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,antagonist
+T3DB ID,/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,Protein ID (ConoServer)
+structure with developmental contribution from neural crest,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,structure with developmental contribution from neural crest
+bean golden mosaic geminivirus,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,bean golden mosaic viral disease
+Partial IgA deficiency,/map/search,exact_match_with_definition_context,3,0,0,1,1,0.3333,selective IgA deficiency disease
+Metastasis to ovary,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Metastasis to ovary of unknown primary
+cartilage hair hypoplasia,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,cartilage-hair hypoplasia syndrome
+Ship's plater,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Ship's plater
+neurite morphogenesis,/map/concept,synonym_as_query,2,0,0,1,1,0.5000,neurite morphogenesis
+JSS shoulder instability score,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,shoulder impingement syndrome
+alpha-protein kinase 1 (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,alpha-protein kinase 1 (mouse)
+Fractured facial bone,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Fractured facial bone
+hyaluronan lyase (EC3.2.1.35-36),/map/search,alt_label_as_query_with_definition_context,1,0,1,1,1,1.0000,hyaluronidase (EC3.2.1.35-36)
+arthrogryposis multiplex congenita,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,"arthrogryposis multiplex congenita 4, neurogenic, with agenesis of the corpus callosum"
+"facial nerve motor nucleus decreased amount, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"facial nerve motor nucleus decreased amount, abnormal"
+Unlayered lissencephaly,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Unlayered lissencephaly
+Hypodipsia,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Hypodipsia
+LTPG33 (Arabidopsis thaliana),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,LTPG33 (Arabidopsis thaliana)
+"postsynaptic density bipolar neuron absent, abnormal",/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,"postsynaptic density bipolar neuron absent, abnormal"
+primary structure of DNA macromolecule,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,primary structure of DNA macromolecule
+matchprobes,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,matchprobes
+PSI-seq,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,PSI-seq
+perineuronal satellite cell,/map/search,alt_label_as_query_with_definition_context,3,0,0,1,1,0.3333,perineuronal satellite cell
+Cystoscopic insertion of ureteric stent,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Cystoscopic insertion of ureteric stent
+Kidnap,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Kidnap
+Application site joint infection,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Application site joint infection
+H2CO3,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,carbonic acid
+Bartholin cyst,/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,Bartholin gland cyst
+Cefrom,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Cefrom
+Triangular epiphyses of the 5th finger,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Triangular epiphyses of the 5th finger
+normal histone H2A phosphorylation during vegetative growth,/map/search,exact_match_with_definition_context,2,0,0,1,1,0.5000,increased histone H2A phosphorylation at tRNA genes during vegetative growth
+MYG1 exonuclease (human),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,MYG1 exonuclease (human)
+Borrelia burgdorferi IgG Ab [Presence] in Serum by Immunoblot,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Borrelia burgdorferi Ab.IgG:PrThr:Pt:Ser:Ord:IB
+dyschondrosteosis-nephritis syndrome,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,dyschondrosteosis-nephritis syndrome
+Rho guanine nucleotide exchange factor 7 isoform 3,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Rho guanine nucleotide exchange factor 7 isoform 3
+oxysterol 7-alpha-hydroxylase deficiency,/map/concept,synonym_as_query,,1,0,0,0,0.0000,oxysterol 7-alpha-hydroxylase activity
+Steeper 21 woven understrap+button hole end,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Steeper 21 woven understrap+button hole end
+"melanocyte dendritic, abnormal",/map/concept,exact_match_no_context,2,0,0,1,1,0.5000,"melanosome melanocyte degenerate, abnormal"
+Painful disorders,/map/concept,synonym_as_query,1,0,1,1,1,1.0000,Pain disorders
+decreased apoptosis in hematopoietic stem cell,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,decreased apoptosis in hematopoietic stem cell
+Dunkeld larch,/map/concept,synonym_as_query,3,0,0,1,1,0.3333,European larch
+increased level of ribitol in cerebrospinal fluid,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,increased level of ribitol in cerebrospinal fluid
+Unable to choose topics of conversation,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Unable to choose topics of conversation
+calcium molecular entity,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,calcium molecular entity
+Shipwright,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Shipwright
+intein,/map/search,alt_label_as_query_with_definition_context,5,0,0,0,1,0.2000,intein
+carbenicillin,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,carbenicillin
+subarachnoidal cavity,/map/search,alt_label_as_query_with_definition_context,4,0,0,0,1,0.2500,subarachnoidal injection
+Decreased circulating acid maltase activity,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Decreased circulating acid maltase activity
+Paranoid psychosis,/map/concept,exact_match_no_context,4,0,0,0,1,0.2500,Paranoid Disorders
+Perforated appendix,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,perforated appendix
+Burn of female genital structure,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Burn of female genital structure
+fruit (concentrated),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,fruit (concentrated)
+specific activator,/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,specific activator
+Laboratory technician,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Laboratory technician - general science
+Bloom's syndrome gene,/map/search,alt_label_as_query_with_definition_context,,1,0,0,0,0.0000,Bloom syndrome gene
+"downregulation of nuclear migration, microtubule-mediated",/map/concept,synonym_as_query,1,0,1,1,1,1.0000,negative regulation of nuclear migration along microtubule
+Anepia,/map/concept,synonym_as_query,,1,0,0,0,0.0000,Anomia [Disease/Finding]
+Endocardial disorders,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Endocardial disorders NEC
+Lrrc14 (mouse),/map/search,exact_match_with_definition_context,1,0,1,1,1,1.0000,Lrrc14 (mouse)
+Slc24a6,/map/concept,synonym_as_query,,1,0,0,0,0.0000,"Slc6a3,Smpx,Slc32a1,Cd24a (Yao)."
+Enlarged epiphyses,/map/concept,exact_match_no_context,1,0,1,1,1,1.0000,Enlarged epiphyses of the toes
+mEDC4/iso:m2,/map/concept,synonym_as_query,,1,0,0,0,0.0000,MC4R deficiency
+mutation frequency,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Patient NHS number,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+mEDC4/iso:m2,/map/batch,batch_group_size_3,,1,0,0,0,0.0000,
+Liquifilm Tears,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Pile easily reducible,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Neoplasm of the pituitary gland,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Dactyloa princeps,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Phenylketonuria pasta,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+increased size of the liver,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+absent sensory perception of sound,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"pectoral fin lepidotrichium 1 quality, abnormal",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"postsynaptic density bipolar neuron absent, abnormal",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Myocardial steatosis,/map/batch,batch_group_size_3,2,0,0,1,1,0.5000,
+Motor nerve conduction pattern,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Progastrin releasing peptide increased,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Able to use speech appropriately,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Lower urinary tract symptoms,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+duct of bulbourethral gland,/map/batch,batch_group_size_3,2,0,0,1,1,0.5000,
+abnormally localised melanophore in optic stalk,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Accidental trifluoperazine overdose,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Porphyria NOS,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Graduated dilator,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Evaporated milk,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+20mLbottle,/map/batch,batch_group_size_3,,1,0,0,0,0.0000,
+Drops unextinguished matches,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"oligodendrocyte decreased occurrence MAPK cascade, abnormal",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Short metacarpals with rounded proximal ends,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"epiphysis disrupted cellular response to UV, abnormal",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Parasitic endophthalmitis NOS,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+HYPOTHALMIC/PITUITARY,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Drugs used for the treatment of acute migraine,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"pectoral fin fold decreased length, abnormal",/map/batch,batch_group_size_3,2,0,0,1,1,0.5000,
+Simulium (Gomphostilbia) huaimorense,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Male hypogonadism,/map/batch,batch_group_size_3,4,0,0,0,1,0.2500,
+EEG with localized low amplitude activity,/map/batch,batch_group_size_3,3,0,0,1,1,0.3333,
+Second stage bilateral orchidopexy,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Injury to liver with open wound into cavity,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+3-methyl-1-(p-fluorophenyl)pyrazole-5-thiol,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Supravalvular aortic stenosis,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Salicylic acid product,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"Hypoglycemia, unspecified",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+fractured metatarsal bone of digit 5,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+3-benzoyl-4-hydroxylcoumarin,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Stiff knee gait,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+GLYCOSURIA,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"strand of pelage hair, decreased curvature phenotype",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"lymph vasculature trunk aplastic, abnormal",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Decreased circulating acid maltase activity,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Cardiomyocyte mitochondrial proliferation,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Cupping of optic nerve,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Cricopharyngeal achalasia,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Abnormality of forces of labor,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+abscisic acid-aldehyde oxidase,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Observation of thyroid function,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Lack of tear production,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+sodium tungstate(VI),/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+monoalkyl-sn-glycero-3-phosphoethanolamine,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+striated coat of hair,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Pneumoconiosis,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+respiratory burst,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+nucleobase biosynthetic process,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Node stage N1biv,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+decreased occurrence of endochondral ossification,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Orphenadrine citrate allergy,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Hematochezia,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Terraced bungalow,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Shipwright,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Cardiac pacemaker adjustment,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+absent vascular plexus,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Bartholin cyst,/map/batch,batch_group_size_3,2,0,0,1,1,0.5000,
+lytic vacuole organization phenotype,/map/batch,batch_group_size_3,2,0,0,1,1,0.5000,
+Partial laminectomy,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Intentional thiopental sodium poisoning,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+EMI scan abnormal,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+pyrrolidinecarboxylic acid,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+decreased size of the pseudopodium,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Resistance to movement in device,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Boletus chippewaensis,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Short wave diathermy to wrist,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+AIDS-associated hemorrhagic sarcoma,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+decreased cell cycle,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Breast tenderness,/map/batch,batch_group_size_3,3,0,0,1,1,0.3333,
+Cachonina niei,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Transtympanic electrocochleography,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Trifluoperazine adverse reaction,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+decreased keratinocyte proliferation,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Precancerous condition,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Child-Turcotte-Pugh class C,/map/batch,batch_group_size_3,,1,0,0,0,0.0000,
+decreased number of pharyngeal mesoderm,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Deep circumflex iliac artery flap,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+"hypaxial region somite 2 quality, abnormal",/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Elevated urinary 3-hydroxyisobutyric acid level,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Melasma,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+decreased glutamate import during vegetative growth,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Rikospray spray,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Aluminium and its derivatives,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+Hypodipsia,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
+decreased size of the branchial arch skeleton 2,/map/batch,batch_group_size_3,1,0,1,1,1,1.0000,
