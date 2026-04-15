@@ -4,19 +4,6 @@
 
 A high-performance **hybrid retrieval + multi-stage re-ranking system** for semantic concept mapping over ontology databases.
 
----
-
-## 📑 Table of Contents
-
-- [Overview](#-overview)
-- [Architecture](#-architecture)
-- [Features](#-features)
-- [Quick Start](#-quick-start)
-- [Configuration](#-configuration)
-- [API Endpoints](#-api-endpoints)
-- [Indexing](#-indexing)
-- [Performance Notes](#-performance-notes)
-- [License](#-license)
 
 ---
 
@@ -26,22 +13,19 @@ This project implements a **hybrid retrieval system for ontology concept mapping
 
 It combines **lexical and semantic search** with **multi-stage re-ranking** to accurately map input terms to ontology concepts stored in a local SQLite database. 
 
----
+This work is designed to function as a standalone component, but is currently integrated into **StructSense** and developed as part of **BrainKB**. If you find this work useful or build upon it, please consider citing:
 
-### 🧠 Core Approach
-
-The system integrates multiple retrieval and ranking strategies:
-
-- **BM25 keyword search** — captures exact and sparse term matches  
-- **Dense embeddings** — enables semantic similarity search  
-- **Hybrid scoring & re-ranking** — balances lexical precision with semantic recall   
-
----
-
-## 🏗️ Architecture
-
-<img width="3334" height="1806" alt="concept_mapping_search-1" src="https://github.com/user-attachments/assets/3eea68ff-f235-4406-8b2d-c3cf68c4e771" />
-
+```bibtex
+@misc{chhetri2025structsensetaskagnosticagenticframework,
+  title        = {STRUCTSENSE: A Task-Agnostic Agentic Framework for Structured Information Extraction with Human-In-The-Loop Evaluation and Benchmarking},
+  author       = {Tek Raj Chhetri and Yibei Chen and Puja Trivedi and Dorota Jarecka and Saif Haobsh and Patrick Ray and Lydia Ng and Satrajit S. Ghosh},
+  year         = {2025},
+  eprint       = {2507.03674},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  url          = {https://arxiv.org/abs/2507.03674}
+}
+```
 
 ---
 
@@ -53,6 +37,16 @@ The system integrates multiple retrieval and ranking strategies:
 - Offline index building support
 - API-first design (FastAPI)
 - Scalable batch concept mapping. It supports a batch request with *4000* concept mapping per requests.
+
+
+---
+
+## 🏗️ Architecture
+The figure below illustrates the core architecture of the retrieval and ranking pipeline. It supports multiple retrieval strategies—including keyword-based, dense, hybrid, and ensemble methods—as well as different reranking approaches, such as single, dual (an ensemble of two rerankers), and ensemble rerankers. This flexibility allows users to tailor the system to their specific needs.
+
+Based on our evaluation (to be published in a forthcoming paper), a single LLM-based reranker achieves the best performance.
+
+<img width="3334" height="1806" alt="concept_mapping_search-1" src="https://github.com/user-attachments/assets/3eea68ff-f235-4406-8b2d-c3cf68c4e771" />
 
 ---
 
@@ -212,17 +206,8 @@ python build_index.py --force
 python build_index.py --db /data/bioportal.db
 ```
 
----
-
-## ⚡ Performance Notes
-
-- FAISS recommended for production (~50ms search)
-- Avoid Chroma for large datasets
-- Use dual_late for best local performance
-- Ensemble gives best accuracy (slowest)
-
----
+--- 
 
 ## 📄 License
 
-Apache 2.0
+This project is licensed under the Apache 2.0 License.
